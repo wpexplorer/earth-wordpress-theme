@@ -1,0 +1,7 @@
+/* IE7 fixes? - you can use this file if  you want...I suggest you upgrade your browser instead ;)
+=================================================================================================== */
+#mainnav{ z-index: 9999; }
+.post-meta li span{ display: none !important; }
+.post-meta li{ display: block; float: none; width: 100%; }
+.backup{ display: none !important;}
+#mainnav #searchbar{ display: none !important; }

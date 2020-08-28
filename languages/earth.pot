@@ -1,0 +1,3318 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Earth WordPress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-13 17:45-0700\n"
+"PO-Revision-Date: 2016-06-25 16:06-0800\n"
+"Last-Translator: AJ Clarke <wpexplorer@gmail.com>\n"
+"Language-Team: WPExplorer\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_html__;esc_html_e;"
+"esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:12
+msgid ""
+"Unfortunately, the page you tried accessing could not be retrieved. Please "
+"visit the"
+msgstr ""
+
+#: 404.php:12
+msgid "homepage"
+msgstr ""
+
+#: archive.php:16
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:18
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:20
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: comments.php:35 comments.php:42 inc/vc/shortcodes/blog.php:121 single.php:48
+#: single.php:224 template-parts/home/blog-full.php:79
+#: template-parts/home/blog.php:76 template-parts/post-entry.php:27
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:35 comments.php:42 inc/vc/shortcodes/blog.php:121 single.php:48
+#: single.php:224 template-parts/home/blog-full.php:79
+#: template-parts/home/blog.php:76 template-parts/post-entry.php:27
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:35 comments.php:42 inc/vc/shortcodes/blog.php:121 single.php:48
+#: single.php:224 template-parts/home/blog-full.php:79
+#: template-parts/home/blog.php:76 template-parts/post-entry.php:27
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:62
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:26
+msgid "Copyright"
+msgstr ""
+
+#: footer.php:42
+msgid "scroll up"
+msgstr ""
+
+#: inc/calendar.php:79 template-events-calendar.php:60
+msgid "Go"
+msgstr ""
+
+#: inc/calendar.php:117 template-events-calendar.php:98
+msgid "Prev"
+msgstr ""
+
+#: inc/calendar.php:118 template-events-calendar.php:99
+msgid "Next"
+msgstr ""
+
+#: inc/calendar.php:152 inc/calendar.php:168
+msgid "Sunday"
+msgstr ""
+
+#: inc/calendar.php:153 inc/calendar.php:162
+msgid "Monday"
+msgstr ""
+
+#: inc/calendar.php:154 inc/calendar.php:163
+msgid "Tuesday"
+msgstr ""
+
+#: inc/calendar.php:155 inc/calendar.php:164
+msgid "Wednesday"
+msgstr ""
+
+#: inc/calendar.php:156 inc/calendar.php:165
+msgid "Thursday"
+msgstr ""
+
+#: inc/calendar.php:157 inc/calendar.php:166
+msgid "Friday"
+msgstr ""
+
+#: inc/calendar.php:158 inc/calendar.php:167
+msgid "Saturday"
+msgstr ""
+
+#: inc/calendar.php:243
+msgid "at"
+msgstr ""
+
+#: inc/config/comments.php:45
+msgid "Edit"
+msgstr ""
+
+#: inc/config/comments.php:50
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/config/comments.php:58
+msgid "reply to comment"
+msgstr ""
+
+#: inc/config/editor-columns.php:22 inc/cpt/types.php:20
+msgid "Slide"
+msgstr ""
+
+#: inc/config/editor-columns.php:23 inc/config/editor-columns.php:75
+#: inc/config/post-metabox.php:124 inc/vc/shortcodes/buttons.php:22
+msgid "URL"
+msgstr ""
+
+#: inc/config/editor-columns.php:24 inc/cpt/taxonomies.php:74
+#: inc/theme-panel/functions/functions.options.php:491
+msgid "Slider"
+msgstr ""
+
+#: inc/config/editor-columns.php:25 inc/config/editor-columns.php:76
+#: inc/config/editor-columns.php:117 inc/config/editor-columns.php:157
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/config/editor-columns.php:74 inc/config/editor-columns.php:115
+#: inc/config/editor-columns.php:153 inc/config/editor-columns.php:219
+#: inc/config/post-metabox.php:85 inc/config/post-metabox.php:174
+#: inc/vc/shortcodes/events-grid.php:245
+msgid "Title"
+msgstr ""
+
+#: inc/config/editor-columns.php:116 inc/config/editor-columns.php:220
+msgid "Category"
+msgstr ""
+
+#: inc/config/editor-columns.php:154
+msgid "Start Date"
+msgstr ""
+
+#: inc/config/editor-columns.php:155
+msgid "End Date"
+msgstr ""
+
+#: inc/config/editor-columns.php:156
+msgid "Featured"
+msgstr ""
+
+#: inc/config/enqueue-scripts.php:156
+msgid "Menu"
+msgstr ""
+
+#: inc/config/post-metabox.php:19 inc/config/post-metabox.php:27
+#: inc/config/post-metabox.php:37 inc/vc/shortcodes/buttons.php:77
+#: inc/vc/shortcodes/image-grid.php:208
+msgid "None"
+msgstr ""
+
+#: inc/config/post-metabox.php:49
+msgid "Post Settings"
+msgstr ""
+
+#: inc/config/post-metabox.php:53 inc/config/post-metabox.php:79
+#: inc/config/post-metabox.php:154 inc/config/post-metabox.php:235
+msgid "oEmbed URL (video)"
+msgstr ""
+
+#: inc/config/post-metabox.php:56
+msgid ""
+"Enter a URL that is compatible with WP's built-in oEmbed feature. This will "
+"override your featured image."
+msgstr ""
+
+#: inc/config/post-metabox.php:63
+msgid "Page Settings"
+msgstr ""
+
+#: inc/config/post-metabox.php:67 inc/config/post-metabox.php:229
+msgid "Slider Shortcode"
+msgstr ""
+
+#: inc/config/post-metabox.php:70 inc/config/post-metabox.php:232
+msgid "Insert your slider shortcode here."
+msgstr ""
+
+#: inc/config/post-metabox.php:73
+msgid "Flickr SlideShow URL"
+msgstr ""
+
+#: inc/config/post-metabox.php:74
+msgid ""
+"Enter the URL to a flickr slideshow if you want one at top of your page."
+msgstr ""
+
+#: inc/config/post-metabox.php:80 inc/config/post-metabox.php:155
+msgid ""
+"Enter the video URL that is compatible with WP's built-in oEmbed feature."
+msgstr ""
+
+#: inc/config/post-metabox.php:80 inc/config/post-metabox.php:155
+#: inc/config/post-metabox.php:236
+msgid "Learn More"
+msgstr ""
+
+#: inc/config/post-metabox.php:86 inc/config/post-metabox.php:175
+msgid "Select to enable disable the main title."
+msgstr ""
+
+#: inc/config/post-metabox.php:90 inc/styling.php:42 inc/styling.php:69
+#: inc/theme-panel/functions/functions.options.php:147
+#: inc/theme-panel/functions/functions.options.php:183
+#: inc/theme-panel/functions/functions.options.php:500
+#: inc/theme-panel/functions/functions.options.php:561
+#: inc/theme-panel/functions/functions.options.php:572
+#: inc/theme-panel/functions/functions.options.php:630
+#: inc/theme-panel/functions/functions.options.php:639
+#: inc/theme-panel/functions/functions.options.php:650
+#: inc/theme-panel/functions/functions.options.php:661
+#: inc/theme-panel/functions/functions.options.php:711
+#: inc/theme-panel/functions/functions.options.php:722
+#: inc/theme-panel/functions/functions.options.php:752
+#: inc/theme-panel/functions/functions.options.php:763
+#: inc/theme-panel/functions/functions.options.php:774
+#: inc/theme-panel/functions/functions.options.php:785
+#: inc/theme-panel/functions/functions.options.php:827
+#: inc/theme-panel/functions/functions.options.php:941
+#: inc/theme-panel/functions/functions.options.php:976
+#: inc/theme-panel/functions/functions.options.php:1012
+#: inc/theme-panel/functions/functions.options.php:1022
+#: inc/theme-panel/functions/functions.options.php:1057
+#: inc/theme-panel/functions/functions.options.php:1067
+#: inc/theme-panel/functions/functions.options.php:1083
+#: inc/theme-panel/functions/functions.options.php:1184
+#: inc/theme-panel/functions/functions.options.php:1194
+#: inc/theme-panel/functions/functions.options.php:1203
+#: inc/theme-panel/functions/functions.options.php:1223
+#: inc/theme-panel/functions/functions.options.php:1233
+#: inc/theme-panel/functions/functions.options.php:1243
+msgid "Enable"
+msgstr ""
+
+#: inc/config/post-metabox.php:91 inc/styling.php:43 inc/styling.php:70
+#: inc/theme-panel/functions/functions.options.php:148
+#: inc/theme-panel/functions/functions.options.php:184
+#: inc/theme-panel/functions/functions.options.php:501
+#: inc/theme-panel/functions/functions.options.php:562
+#: inc/theme-panel/functions/functions.options.php:573
+#: inc/theme-panel/functions/functions.options.php:631
+#: inc/theme-panel/functions/functions.options.php:640
+#: inc/theme-panel/functions/functions.options.php:651
+#: inc/theme-panel/functions/functions.options.php:662
+#: inc/theme-panel/functions/functions.options.php:712
+#: inc/theme-panel/functions/functions.options.php:723
+#: inc/theme-panel/functions/functions.options.php:753
+#: inc/theme-panel/functions/functions.options.php:764
+#: inc/theme-panel/functions/functions.options.php:775
+#: inc/theme-panel/functions/functions.options.php:786
+#: inc/theme-panel/functions/functions.options.php:828
+#: inc/theme-panel/functions/functions.options.php:942
+#: inc/theme-panel/functions/functions.options.php:977
+#: inc/theme-panel/functions/functions.options.php:1013
+#: inc/theme-panel/functions/functions.options.php:1023
+#: inc/theme-panel/functions/functions.options.php:1058
+#: inc/theme-panel/functions/functions.options.php:1068
+#: inc/theme-panel/functions/functions.options.php:1084
+#: inc/theme-panel/functions/functions.options.php:1185
+#: inc/theme-panel/functions/functions.options.php:1195
+#: inc/theme-panel/functions/functions.options.php:1204
+#: inc/theme-panel/functions/functions.options.php:1224
+#: inc/theme-panel/functions/functions.options.php:1234
+#: inc/theme-panel/functions/functions.options.php:1244
+msgid "Disable"
+msgstr ""
+
+#: inc/config/post-metabox.php:95
+msgid "Image Slider"
+msgstr ""
+
+#: inc/config/post-metabox.php:98
+msgid ""
+"Select an image slider if you want one at the top of your page. For the "
+"homepage please use the admin setting."
+msgstr ""
+
+#: inc/config/post-metabox.php:102
+msgid "Blog Template Category"
+msgstr ""
+
+#: inc/config/post-metabox.php:106
+msgid "Select a category for your blog page."
+msgstr ""
+
+#: inc/config/post-metabox.php:109
+msgid "Gallery Template Category"
+msgstr ""
+
+#: inc/config/post-metabox.php:113
+msgid "Select a category for your gallery page."
+msgstr ""
+
+#: inc/config/post-metabox.php:120
+msgid "Highlight Settings"
+msgstr ""
+
+#: inc/config/post-metabox.php:125
+msgid "Enter a URL to link the title of this highlight to. Optional."
+msgstr ""
+
+#: inc/config/post-metabox.php:134
+msgid "Slide Settings"
+msgstr ""
+
+#: inc/config/post-metabox.php:138
+msgid "Slide URL"
+msgstr ""
+
+#: inc/config/post-metabox.php:139
+msgid "Enter a URL to link this slide to."
+msgstr ""
+
+#: inc/config/post-metabox.php:144
+msgid "Slider URL Target"
+msgstr ""
+
+#: inc/config/post-metabox.php:145
+msgid "Select your slide URL target."
+msgstr ""
+
+#: inc/config/post-metabox.php:149 inc/vc/shortcodes/buttons.php:67
+msgid "Self"
+msgstr ""
+
+#: inc/config/post-metabox.php:150 inc/vc/shortcodes/buttons.php:68
+msgid "Blank"
+msgstr ""
+
+#: inc/config/post-metabox.php:160
+msgid "Caption"
+msgstr ""
+
+#: inc/config/post-metabox.php:161
+msgid "Enter a description for your slide."
+msgstr ""
+
+#: inc/config/post-metabox.php:170
+msgid "Event Settings"
+msgstr ""
+
+#: inc/config/post-metabox.php:179
+#: inc/theme-panel/functions/functions.options.php:50 inc/vc/extend.php:121
+#: inc/vc/extend.php:303 inc/vc/shortcodes/leader.php:110
+msgid "Default"
+msgstr ""
+
+#: inc/config/post-metabox.php:180 inc/config/post-metabox.php:191
+#: inc/vc/shortcodes/blog-grid.php:285 inc/vc/shortcodes/blog-grid.php:295
+#: inc/vc/shortcodes/blog-grid.php:305 inc/vc/shortcodes/blog.php:244
+#: inc/vc/shortcodes/blog.php:254 inc/vc/shortcodes/detailed-galleries.php:331
+#: inc/vc/shortcodes/detailed-galleries.php:343
+#: inc/vc/shortcodes/detailed-galleries.php:353
+#: inc/vc/shortcodes/detailed-galleries.php:370
+#: inc/vc/shortcodes/events-grid.php:239 inc/vc/shortcodes/events-grid.php:248
+#: inc/vc/shortcodes/events-grid.php:259 inc/vc/shortcodes/events-grid.php:269
+#: inc/vc/shortcodes/events-grid.php:285 inc/vc/shortcodes/events-grid.php:296
+#: inc/vc/shortcodes/events-grid.php:339 inc/vc/shortcodes/events.php:209
+#: inc/vc/shortcodes/events.php:218 inc/vc/shortcodes/events.php:234
+#: inc/vc/shortcodes/events.php:245 inc/vc/shortcodes/events.php:288
+#: inc/vc/shortcodes/image-grid.php:199
+#: inc/vc/shortcodes/simple-galleries.php:282
+#: inc/vc/shortcodes/simple-galleries.php:348
+#: inc/vc/shortcodes/simple-galleries.php:360
+#: inc/vc/shortcodes/simple-galleries.php:370
+msgid "Yes"
+msgstr ""
+
+#: inc/config/post-metabox.php:181 inc/config/post-metabox.php:190
+#: inc/vc/shortcodes/blog-grid.php:284 inc/vc/shortcodes/blog-grid.php:296
+#: inc/vc/shortcodes/blog-grid.php:306 inc/vc/shortcodes/blog.php:243
+#: inc/vc/shortcodes/blog.php:255 inc/vc/shortcodes/detailed-galleries.php:330
+#: inc/vc/shortcodes/detailed-galleries.php:342
+#: inc/vc/shortcodes/detailed-galleries.php:352
+#: inc/vc/shortcodes/detailed-galleries.php:371
+#: inc/vc/shortcodes/events-grid.php:240 inc/vc/shortcodes/events-grid.php:249
+#: inc/vc/shortcodes/events-grid.php:258 inc/vc/shortcodes/events-grid.php:270
+#: inc/vc/shortcodes/events-grid.php:286 inc/vc/shortcodes/events-grid.php:295
+#: inc/vc/shortcodes/events-grid.php:338 inc/vc/shortcodes/events.php:208
+#: inc/vc/shortcodes/events.php:219 inc/vc/shortcodes/events.php:235
+#: inc/vc/shortcodes/events.php:244 inc/vc/shortcodes/events.php:287
+#: inc/vc/shortcodes/image-grid.php:198 inc/vc/shortcodes/leader.php:173
+#: inc/vc/shortcodes/simple-galleries.php:283
+#: inc/vc/shortcodes/simple-galleries.php:347
+#: inc/vc/shortcodes/simple-galleries.php:359
+#: inc/vc/shortcodes/simple-galleries.php:369
+msgid "No"
+msgstr ""
+
+#: inc/config/post-metabox.php:185
+msgid "Featured Event?"
+msgstr ""
+
+#: inc/config/post-metabox.php:186
+msgid ""
+"Is this a featured event? This setting is used for the homepage event module "
+"and event widget."
+msgstr ""
+
+#: inc/config/post-metabox.php:195
+msgid "Disable Event Tabs"
+msgstr ""
+
+#: inc/config/post-metabox.php:196
+msgid "Check to disable the tabs on this event (details, map, gallery)."
+msgstr ""
+
+#: inc/config/post-metabox.php:201
+msgid "Event Start Day"
+msgstr ""
+
+#: inc/config/post-metabox.php:205
+msgid "Enter a start day for your event."
+msgstr ""
+
+#: inc/config/post-metabox.php:208
+msgid "Event End Day"
+msgstr ""
+
+#: inc/config/post-metabox.php:212
+msgid "Enter an end date for your event."
+msgstr ""
+
+#: inc/config/post-metabox.php:215
+msgid "Start Time"
+msgstr ""
+
+#: inc/config/post-metabox.php:219
+msgid "Enter a start time for your event."
+msgstr ""
+
+#: inc/config/post-metabox.php:222
+msgid "End Time"
+msgstr ""
+
+#: inc/config/post-metabox.php:226
+msgid "Enter an end time for your event."
+msgstr ""
+
+#: inc/config/post-metabox.php:236
+msgid ""
+"Enter the video URL that is compatible with WP's built-in oEmbed feature. "
+"This will override your featured image."
+msgstr ""
+
+#: inc/config/post-metabox.php:241
+msgid "Event Address"
+msgstr ""
+
+#: inc/config/post-metabox.php:242
+msgid ""
+"Enter your adddress or Google Map embed code. If you enter an address you "
+"will have to enter your Google Maps API key in the theme options panel."
+msgstr ""
+
+#: inc/config/post-metabox.php:248
+msgid "Google Map Embed Code"
+msgstr ""
+
+#: inc/config/post-metabox.php:249
+msgid "Alternative method for displaying your map."
+msgstr ""
+
+#: inc/config/post-metabox.php:255
+msgid "Event Description"
+msgstr ""
+
+#: inc/config/post-metabox.php:256
+msgid ""
+"This will override the default trimmed excerpt based on the post content."
+msgstr ""
+
+#: inc/config/theme-setup.php:28
+msgid "Main"
+msgstr ""
+
+#: inc/config/theme-setup.php:29
+#: inc/theme-panel/functions/functions.options.php:1148
+msgid "Footer"
+msgstr ""
+
+#: inc/core.php:91 template-parts/post-entry.php:62
+msgid "continue reading"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:18
+msgid "Gallery Categories"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:19
+#: inc/theme-panel/functions/functions.options.php:410
+msgid "Gallery Category"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:20
+msgid "Search Gallery Categories"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:21
+msgid "All Gallery Categories"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:22
+msgid "Parent Gallery Category"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:23
+msgid "Parent Gallery Category:"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:24
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:25
+msgid "Update Gallery Category"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:26
+msgid "Add New Gallery Category"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:27
+msgid "New Gallery Category Name"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:28
+msgid "Choose from the most used gallery categories"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:46
+msgid "Topics"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:47
+msgid "Topic"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:48
+msgid "Search Topics"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:49
+msgid "All Topics"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:50
+msgid "Parent Topics"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:51
+msgid "Parent Topics:"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:52
+msgid "Edit Topics"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:53
+msgid "Update Topics"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:54
+msgid "Add New Topics"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:55
+msgid "New Topics"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:56
+msgid "Choose from the most used faq categories"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:73
+msgid "Sliders"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:75
+msgid "Search Sliders"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:76
+msgid "All Sliders"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:77
+msgid "Edit Slider"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:78
+msgid "Update Slider"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:79
+msgid "Add New Slider"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:80
+msgid "New Slider"
+msgstr ""
+
+#: inc/cpt/taxonomies.php:81
+msgid "Choose from the most used sliders"
+msgstr ""
+
+#: inc/cpt/types.php:19 inc/theme-panel/functions/functions.options.php:496
+msgid "Slides"
+msgstr ""
+
+#: inc/cpt/types.php:21 inc/cpt/types.php:56 inc/cpt/types.php:88
+#: inc/cpt/types.php:120 inc/cpt/types.php:152
+msgid "Add New"
+msgstr ""
+
+#: inc/cpt/types.php:22
+msgid "Add New Slide"
+msgstr ""
+
+#: inc/cpt/types.php:23
+msgid "Edit Slide"
+msgstr ""
+
+#: inc/cpt/types.php:24
+msgid "New Slide"
+msgstr ""
+
+#: inc/cpt/types.php:25
+msgid "View Slide"
+msgstr ""
+
+#: inc/cpt/types.php:26
+msgid "Search Slides"
+msgstr ""
+
+#: inc/cpt/types.php:27
+msgid "No Slides found"
+msgstr ""
+
+#: inc/cpt/types.php:28
+msgid "No Slides Found In Trash"
+msgstr ""
+
+#: inc/cpt/types.php:54 inc/theme-panel/functions/functions.options.php:28
+#: inc/theme-panel/functions/functions.options.php:1180
+msgid "Highlights"
+msgstr ""
+
+#: inc/cpt/types.php:55
+msgid "Highlight"
+msgstr ""
+
+#: inc/cpt/types.php:57
+msgid "Add New Highlight"
+msgstr ""
+
+#: inc/cpt/types.php:58
+msgid "Edit Highlight"
+msgstr ""
+
+#: inc/cpt/types.php:59
+msgid "New Highlight"
+msgstr ""
+
+#: inc/cpt/types.php:60
+msgid "View Highlight"
+msgstr ""
+
+#: inc/cpt/types.php:61
+msgid "Search Highlights"
+msgstr ""
+
+#: inc/cpt/types.php:62
+msgid "No Highlights Found"
+msgstr ""
+
+#: inc/cpt/types.php:63
+msgid "No Highlights Found In Trash"
+msgstr ""
+
+#: inc/cpt/types.php:86 inc/cpt/types.php:87
+#: inc/theme-panel/functions/functions.mediauploader.php:210
+#: inc/theme-panel/functions/functions.options.php:388
+#: inc/theme-panel/functions/functions.options.php:818
+#: inc/theme-panel/functions/functions.options.php:823
+#: inc/widgets/recent-gallery.php:80 single-events.php:125
+msgid "Gallery"
+msgstr ""
+
+#: inc/cpt/types.php:89
+msgid "Add New Gallery"
+msgstr ""
+
+#: inc/cpt/types.php:90
+msgid "Edit Gallery"
+msgstr ""
+
+#: inc/cpt/types.php:91
+msgid "New Gallery"
+msgstr ""
+
+#: inc/cpt/types.php:92
+msgid "View Gallery"
+msgstr ""
+
+#: inc/cpt/types.php:93
+msgid "Search Galleries"
+msgstr ""
+
+#: inc/cpt/types.php:94
+msgid "No Galleries found"
+msgstr ""
+
+#: inc/cpt/types.php:95
+msgid "No Galleries Found In Trash"
+msgstr ""
+
+#: inc/cpt/types.php:118 inc/theme-panel/functions/functions.options.php:31
+#: inc/theme-panel/functions/functions.options.php:302
+#: inc/theme-panel/functions/functions.options.php:621
+#: inc/theme-panel/functions/functions.options.php:626
+#: inc/vc/shortcodes/events.php:190
+msgid "Events"
+msgstr ""
+
+#: inc/cpt/types.php:119
+msgid "Event"
+msgstr ""
+
+#: inc/cpt/types.php:121
+msgid "Add New Event"
+msgstr ""
+
+#: inc/cpt/types.php:122
+msgid "Edit Event"
+msgstr ""
+
+#: inc/cpt/types.php:123
+msgid "New Event"
+msgstr ""
+
+#: inc/cpt/types.php:124
+msgid "View Event"
+msgstr ""
+
+#: inc/cpt/types.php:125
+msgid "Search Events"
+msgstr ""
+
+#: inc/cpt/types.php:126
+msgid "No Events Found"
+msgstr ""
+
+#: inc/cpt/types.php:127
+msgid "No Events Found In Trash"
+msgstr ""
+
+#: inc/cpt/types.php:150
+msgid "FAQs"
+msgstr ""
+
+#: inc/cpt/types.php:151
+msgid "FAQ"
+msgstr ""
+
+#: inc/cpt/types.php:153
+msgid "Add New FAQ"
+msgstr ""
+
+#: inc/cpt/types.php:154
+msgid "Edit FAQ"
+msgstr ""
+
+#: inc/cpt/types.php:155
+msgid "New FAQ"
+msgstr ""
+
+#: inc/cpt/types.php:156
+msgid "View FAQ"
+msgstr ""
+
+#: inc/cpt/types.php:157
+msgid "Search FAQs"
+msgstr ""
+
+#: inc/cpt/types.php:158
+msgid "No FAQs Found"
+msgstr ""
+
+#: inc/cpt/types.php:159
+msgid "No FAQs Found In Trash"
+msgstr ""
+
+#: inc/event-helpers.php:124
+msgid "Jan"
+msgstr ""
+
+#: inc/event-helpers.php:125
+msgid "Feb"
+msgstr ""
+
+#: inc/event-helpers.php:126
+msgid "Mar"
+msgstr ""
+
+#: inc/event-helpers.php:127
+msgid "Apr"
+msgstr ""
+
+#: inc/event-helpers.php:128
+msgid "May"
+msgstr ""
+
+#: inc/event-helpers.php:129
+msgid "Jun"
+msgstr ""
+
+#: inc/event-helpers.php:130
+msgid "July"
+msgstr ""
+
+#: inc/event-helpers.php:131
+msgid "Aug"
+msgstr ""
+
+#: inc/event-helpers.php:132
+msgid "Sep"
+msgstr ""
+
+#: inc/event-helpers.php:133
+msgid "Oct"
+msgstr ""
+
+#: inc/event-helpers.php:134
+msgid "Nov"
+msgstr ""
+
+#: inc/event-helpers.php:135
+msgid "Dec"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:393
+#: inc/lib/class-tgm-plugin-activation.php:920
+#: inc/lib/class-tgm-plugin-activation.php:2626
+#: inc/lib/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:394
+#: inc/lib/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:1027
+#: inc/lib/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3602
+#: inc/lib/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3602
+#: inc/lib/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/lib/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/lib/wpex-gallery-metabox/init.php:73
+msgid "Image Gallery"
+msgstr ""
+
+#: inc/lib/wpex-gallery-metabox/init.php:100
+#: inc/lib/wpex-gallery-metabox/init.php:226
+msgid "Remove image"
+msgstr ""
+
+#: inc/lib/wpex-gallery-metabox/init.php:110
+msgid "Add/Edit Images"
+msgstr ""
+
+#: inc/lib/wpex-gallery-metabox/init.php:114
+msgid "Enable Lightbox for this gallery?"
+msgstr ""
+
+#: inc/lib/wpex-gallery-metabox/init.php:224
+msgid "Add Images to Gallery"
+msgstr ""
+
+#: inc/lib/wpex-gallery-metabox/init.php:225
+msgid "Add to gallery"
+msgstr ""
+
+#: inc/lib/wpex-post-metabox/class.php:90
+msgid "Settings"
+msgstr ""
+
+#: inc/lib/wpex-post-metabox/class.php:143
+msgid "Reset Settings"
+msgstr ""
+
+#: inc/lib/wpex-post-metabox/class.php:144
+msgid "Cancel Reset"
+msgstr ""
+
+#: inc/lib/wpex-post-metabox/class.php:168
+msgid "No meta options available for this post type or user."
+msgstr ""
+
+#: inc/lib/wpex-post-metabox/class.php:205
+#: inc/theme-panel/functions/functions.options.php:1175
+msgid "Other"
+msgstr ""
+
+#: inc/lib/wpex-post-metabox/class.php:373
+msgid "Important:"
+msgstr ""
+
+#: inc/lib/wpex-post-metabox/class.php:373
+msgid ""
+"You must first enter your Google Maps API key in the theme options panel in "
+"order to use this setting"
+msgstr ""
+
+#: inc/lib/wpex-post-metabox/class.php:445
+msgid "Upload"
+msgstr ""
+
+#: inc/shortcodes.php:45
+msgid ""
+"WPML ICL_LANGUAGE_CODE constant does not exist. If you want to translate "
+"something please first install the WPML plugin."
+msgstr ""
+
+#: inc/shortcodes.php:95 inc/vc/shortcodes/buttons.php:36
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/shortcodes.php:97
+msgid "Button Text"
+msgstr ""
+
+#: inc/shortcodes.php:203
+msgid "Toggle"
+msgstr ""
+
+#: inc/social.php:44 inc/theme-panel/functions/functions.options.php:700
+msgid "Calendar"
+msgstr ""
+
+#: inc/social.php:48
+msgid "Contact"
+msgstr ""
+
+#: inc/social.php:52
+msgid "RSS Feed"
+msgstr ""
+
+#: inc/styling.php:33
+msgid "Styling"
+msgstr ""
+
+#: inc/styling.php:38
+msgid "Responsive Layout"
+msgstr ""
+
+#: inc/styling.php:39
+msgid "Select to enable or disable the responsive layout."
+msgstr ""
+
+#: inc/styling.php:48
+msgid "Main Background Color"
+msgstr ""
+
+#: inc/styling.php:56
+msgid "Main Background Image"
+msgstr ""
+
+#: inc/styling.php:57
+msgid ""
+"Select a background pattern. You can always upload a custom background at "
+"Apperance->Background. Just make sure to first set this option to \"none\"."
+msgstr ""
+
+#: inc/styling.php:65
+msgid "Custom Colors"
+msgstr ""
+
+#: inc/styling.php:66
+msgid ""
+"Select to enable or disable the custom color options below. Useful for "
+"testing purposes."
+msgstr ""
+
+#: inc/styling.php:79
+msgid "Logo"
+msgstr ""
+
+#: inc/styling.php:86
+msgid "Text Logo Color"
+msgstr ""
+
+#: inc/styling.php:95
+msgid "Text Logo Hover Color"
+msgstr ""
+
+#: inc/styling.php:108
+msgid "Donation Button"
+msgstr ""
+
+#: inc/styling.php:115
+msgid "Donation Button Background"
+msgstr ""
+
+#: inc/styling.php:124
+msgid "Donation Button Color"
+msgstr ""
+
+#: inc/styling.php:133
+msgid "Donation Button Hover Background"
+msgstr ""
+
+#: inc/styling.php:142
+msgid "Donation Button Hover Color"
+msgstr ""
+
+#: inc/styling.php:151
+msgid "Donation Button Hover Animation"
+msgstr ""
+
+#: inc/styling.php:152
+msgid "Do you want the donation button to animate on hover?"
+msgstr ""
+
+#: inc/styling.php:164
+msgid "Menu Colors"
+msgstr ""
+
+#: inc/styling.php:171
+msgid "Menu Background Top Gradient"
+msgstr ""
+
+#: inc/styling.php:180
+msgid "Menu Background Bottom Gradient"
+msgstr ""
+
+#: inc/styling.php:189
+msgid "Menu Link Right Border"
+msgstr ""
+
+#: inc/styling.php:198
+msgid "Menu Link Left Border"
+msgstr ""
+
+#: inc/styling.php:207
+msgid "Menu Link Color"
+msgstr ""
+
+#: inc/styling.php:216
+msgid "Menu Hover & Active Background"
+msgstr ""
+
+#: inc/styling.php:225
+msgid "Dropdown Background"
+msgstr ""
+
+#: inc/styling.php:234
+msgid "Dropdown Link Border Top Color"
+msgstr ""
+
+#: inc/styling.php:243
+msgid "Dropdown Link Border Bottom Color"
+msgstr ""
+
+#: inc/styling.php:252
+msgid "Dropdown Link Color"
+msgstr ""
+
+#: inc/styling.php:261
+msgid "Dropdown Link Hover Background"
+msgstr ""
+
+#: inc/styling.php:270
+msgid "Dropdown Link Hover Color"
+msgstr ""
+
+#: inc/styling.php:279
+msgid "Menu Link Text Shadow"
+msgstr ""
+
+#: inc/styling.php:280
+msgid "Do you want text shadow applied to your navigation links?"
+msgstr ""
+
+#: inc/styling.php:292
+msgid "Footer Colors"
+msgstr ""
+
+#: inc/styling.php:299
+msgid "Footer Background"
+msgstr ""
+
+#: inc/styling.php:308
+msgid "Footer Background Bottom Border"
+msgstr ""
+
+#: inc/styling.php:317
+msgid "Footer Headings Color"
+msgstr ""
+
+#: inc/styling.php:326
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/styling.php:335
+msgid "Footer Link Color"
+msgstr ""
+
+#: inc/styling.php:344
+msgid "Footer Link Hover Color"
+msgstr ""
+
+#: inc/styling.php:353
+msgid "Footer Link Hover Background"
+msgstr ""
+
+#: inc/styling.php:362
+msgid "Footer List Item Bottom Border"
+msgstr ""
+
+#: inc/styling.php:375
+msgid "Copyright  & Bottom Menu Colors"
+msgstr ""
+
+#: inc/styling.php:382
+msgid "Copyright Background"
+msgstr ""
+
+#: inc/styling.php:391
+msgid "Copyright Top Border"
+msgstr ""
+
+#: inc/styling.php:400
+msgid "Copyright Text Color"
+msgstr ""
+
+#: inc/styling.php:409
+msgid "Copyright Link Color"
+msgstr ""
+
+#: inc/styling.php:418
+msgid "Copyright Link Hover Color"
+msgstr ""
+
+#: inc/theme-panel/classes/class.options_machine.php:1069
+msgid "Last Backup : "
+msgstr ""
+
+#: inc/theme-panel/front-end/options.php:4
+msgid "Options Updated"
+msgstr ""
+
+#: inc/theme-panel/front-end/options.php:8
+#: inc/theme-panel/front-end/options.php:67
+msgid "Options Reset"
+msgstr ""
+
+#: inc/theme-panel/front-end/options.php:12
+msgid "Error!"
+msgstr ""
+
+#: inc/theme-panel/front-end/options.php:24
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/theme-panel/front-end/options.php:27
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: inc/theme-panel/front-end/options.php:36
+msgid "Expand"
+msgstr ""
+
+#: inc/theme-panel/front-end/options.php:39
+msgid "Working..."
+msgstr ""
+
+#: inc/theme-panel/front-end/options.php:42
+#: inc/theme-panel/front-end/options.php:66
+msgid "Save All Changes"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.mediauploader.php:20
+msgid "Options"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.mediauploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:29
+msgid "Events & Blog"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:30
+#: inc/theme-panel/functions/functions.options.php:345
+#: inc/theme-panel/functions/functions.options.php:904
+#: inc/vc/shortcodes/blog.php:172
+msgid "Blog"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:32
+msgid "Gallery Items"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:36
+#: inc/theme-panel/functions/functions.options.php:467
+#: inc/theme-panel/functions/functions.options.php:481
+msgid "Static Page"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:37
+#: inc/theme-panel/functions/functions.options.php:431
+#: inc/theme-panel/functions/functions.options.php:453
+msgid "Single Gallery"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:43
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:44
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:45
+msgid "Full Width"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:51 inc/vc/extend.php:304
+msgid "Top Left"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:52 inc/vc/extend.php:305
+msgid "Top Right"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:53 inc/vc/extend.php:306
+msgid "Top Center"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:54 inc/vc/extend.php:307
+msgid "Center Left"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:55 inc/vc/extend.php:308
+msgid "Center Right"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:56 inc/vc/extend.php:309
+msgid "Center Center"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:57 inc/vc/extend.php:310
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:58 inc/vc/extend.php:311
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:59 inc/vc/extend.php:312
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:70
+msgid "General"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:75
+msgid "Main Logo Upload"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:76
+msgid ""
+"Upload your custom logo using the native media uploader, or define the URL "
+"directly"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:83
+msgid "Custom Favicon"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:84
+msgid "Upload or past the URL for your custom favicon."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:95
+msgid "Login Logo"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:101
+msgid "Custom Login Logo"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:102
+msgid "Upload a custom logo for your Wordpress login screen."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:109
+msgid "Custom Login Logo Height"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:110
+msgid ""
+"Enter the height of your custom logo to override the default WordPress image "
+"height."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:121
+msgid "Header"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:127
+msgid "Header Top Padding"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:128
+msgid "Top padding value for your header in pixels. Default: 25px"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:135
+msgid "Header Bottom Padding"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:136
+msgid "Bottom padding value for your header in pixels. Default: 25px"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:143
+msgid "Header Search Bar"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:144
+msgid "Select to enable or disable the header search bar."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:153
+msgid "Header Search Bar Width"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:154
+msgid "Enter a custom width for your searchbar"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:162
+msgid "Custom Responsive Menu Text"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:163
+msgid ""
+"Custom Responsive menu text. Please leave blank if using WPML to translate "
+"it."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:173
+#: inc/theme-panel/functions/functions.options.php:261
+msgid "Donate Button"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:179
+msgid "Header Donate Button"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:180
+msgid "Select to enable or disable the header donate button."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:189
+msgid "Header Donate Button Text"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:190
+msgid "Enter the text for your top bar callout button."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:198
+msgid "Header Donate Button Link"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:199
+msgid "Enter the url to link your top bar callout button to"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:207
+msgid "Header Donate Button Link Target"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:208
+msgid "Select your link target"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:217
+msgid "Header Donate Button Icon"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:218
+msgid ""
+"Select your preferred icon. You can preview the icons at <a href=\"http://"
+"fortawesome.github.com/Font-Awesome/\">font awesome</a>."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:232
+msgid "Typography"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:237
+msgid "Body Font"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:238
+#: inc/theme-panel/functions/functions.options.php:246
+msgid "Body font properties"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:245
+msgid "Logo Font"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:253
+msgid "Headings"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:254
+msgid ""
+"Deadings font properties. This will be applied to h1, h2, h3, h4, h5, h6 "
+"tags."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:262
+msgid "Donate button font properties."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:269
+msgid "Navigation"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:270
+msgid "Navigation button font properties."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:277
+msgid "Slider Caption"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:278
+msgid "Slider caption font properties."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:287
+msgid "Home"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:291
+msgid "Homepage Layout Manager"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:292
+msgid "Organize how you want the layout to appear on the homepage."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:308
+msgid "Events Title"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:309
+msgid ""
+"Enter your custom title for the events module. Enter \"disable\" to disable "
+"the title completely."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:311
+msgid "Upcoming Events"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:316
+msgid "Events Title Link"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:317
+msgid "Enter a link for your events title (optional)."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:324
+msgid "How Many Events"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:325
+msgid "How many events do you want to show on the homepage."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:333
+msgid "Check this box to only show featured events on the homepage."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:351
+msgid "Recent News Title"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:352
+msgid ""
+"Enter your custom title for the latest blog items module. Enter \"disable\" "
+"to disable the title completely."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:354
+msgid "From The Blog"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:359
+msgid "Recent News Title Link"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:360
+msgid "Enter a link for your recent news title (optional)."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:367
+msgid "Recent News Category"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:368
+msgid ""
+"If you do not want recent blog posts from all the most recent posts, select "
+"a specific category below to pull the posts from."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:376
+msgid "How Recent News Posts?"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:377
+msgid "How many latest blog posts do you want to show on the homepage."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:394
+msgid "Gallery Items Title"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:395
+#: inc/theme-panel/functions/functions.options.php:438
+msgid ""
+"Enter your custom title for the latest gallery items module. Enter \"disable"
+"\" to disable the title completely."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:397
+#: template-parts/home/gallery.php:44
+msgid "Recent Galleries"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:402
+msgid "Gallery Items Title Link"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:403
+msgid "Enter a link for your recent galleries title (optional)."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:411
+msgid ""
+"If you do not want to show all the recent gallery items, select a specific "
+"category below."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:419
+msgid "How Many Latest Gallery Items"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:420
+msgid "How many latest gallery items do you want to show on the homepage."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:437
+msgid "Single Gallery Title"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:440
+#: template-parts/home/gallery-single.php:32
+msgid "Featured Gallery"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:445
+msgid "Single Gallery Title Link"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:446
+msgid "Enter a link for your single gallery title (optional)."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:454
+msgid "Select the gallery to display."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:473
+msgid "Static Page Title"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:474
+msgid "Enter the text for your static page module. (optional)"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:482
+msgid ""
+"Select a page for your homepage static page module. <strong>Important:</"
+"strong> Pages with custom loops like the portfolio, services, staff..etc, "
+"pages will not work.This only shows the content from the post editor."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:497
+msgid ""
+"Enable or disable the built-in slides post type. Refresh your browser after "
+"altering this setting."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:506
+msgid "Slider Width"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:514
+msgid "Slider Height"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:522
+#: inc/theme-panel/functions/functions.options.php:808
+msgid "Event Post Image Crop"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:531
+msgid "Animation"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:532
+msgid "Select your desired slider animation."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:544
+msgid "Animation Direction"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:545
+msgid ""
+"Select your desired direction for the slider animation.<br /><br /"
+"><strong>Note:</strong> If you choose vertical slides, all slides must be "
+"the same height to prevent issues."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:557
+msgid "Auto Slideshow"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:558
+msgid "Do you wish to enable or disable the automatic slideshow"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:568
+msgid "Randomize Slideshow"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:569
+msgid "Do you wish to enable or disable random slide order."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:579
+msgid "Slideshow Speed"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:580
+msgid ""
+"Adjust the slideshow speed of your homepage slider. Time in milliseconds"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:594
+msgid "Home Slider"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:601
+msgid "Slider Category"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:602
+msgid ""
+"Choose your image slider. If you leave this option alone it will display all "
+"your slides."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:611
+msgid "Slider Alternate"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:612
+msgid ""
+"Use this field to insert a shortcode or other HTML to replace the default "
+"flexslider"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:627
+msgid ""
+"Enable or disable the built-in events post type. Refresh your browser after "
+"altering this setting."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:636
+msgid "Custom Events Sidebar"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:646
+msgid "Hide Past Events"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:647
+msgid "Select the hide past events from the calendar/archive."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:657
+msgid "Show Event Time On Archive"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:658
+msgid ""
+"Select to enable or disable the event time on the event posts while viewing "
+"the Event list."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:668
+msgid "Events Posts Per Page"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:669
+msgid ""
+"How many events to display on the events list before displaying the numbered "
+"pagination"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:677
+msgid "Events Order"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:678
+msgid "Select your preferred events order (Ascending or Descending)"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:687
+msgid "Event Time Clock"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:707
+msgid "Show Event Time On Calendar"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:708
+msgid ""
+"Select to enable or disable the event time on the event posts while viewing "
+"the Calendar."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:718
+msgid "Next/Prev Calendar Buttons"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:719
+msgid ""
+"Select to enable or disable the next and previous buttons on the events "
+"calendar."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:732
+#: inc/theme-panel/functions/functions.options.php:871
+#: inc/theme-panel/functions/functions.options.php:994
+msgid "Post"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:739
+msgid "Single Event Layout"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:748
+msgid "Countdown"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:749
+msgid "Select to enable or disable the event countdown on the event posts."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:759
+msgid "Extended Countdown"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:760
+msgid "Will display days and hours, seconds, minutes until the event."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:770
+msgid "Event Tabs"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:771
+msgid "Select to enable or disable the tabs on events (details, map, gallery)."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:781
+#: inc/theme-panel/functions/functions.options.php:1053
+msgid "Lighbox on Featured Image"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:782
+msgid ""
+"Select to enable or disable the lightbox function when clicking a featured "
+"image on a single event."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:792
+msgid "Event Post Image Width"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:800
+msgid "Event Post Image Height"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:825
+msgid ""
+"Enable or disable the built-in gallery post type. Refresh your browser after "
+"altering this setting."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:836
+#: inc/theme-panel/functions/functions.options.php:930
+msgid "Entry"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:843
+msgid "Gallery Entry Image Width"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:851
+msgid "Gallery Entry Image Height"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:859
+msgid "Gallery Entry Image Crop"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:878
+msgid "Gallery Post Image Width"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:886
+msgid "Gallery Post Image Height"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:894
+msgid "Gallery Post Image Crop"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:909
+msgid "Blog Style"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:910
+msgid "Select your blog style."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:918
+msgid "Divider Icon"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:919
+msgid ""
+"Change the default <strong>leaf divider</strong> to another icon. You can "
+"preview the icons at <a href=\"http://fortawesome.github.com/Font-Awesome/"
+"\">font awesome</a>."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:937
+msgid "Featured Image On Blog Entries"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:938
+msgid ""
+"Select to enable or disable the featured image on the blog page and archive "
+"entries."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:947
+#: inc/theme-panel/functions/functions.options.php:1028
+msgid "Entry Image Width"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:955
+#: inc/theme-panel/functions/functions.options.php:1036
+msgid "Entry Image Height"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:963
+#: inc/theme-panel/functions/functions.options.php:1044
+msgid "Entry Image Crop"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:972
+msgid "Entry Excerpts"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:973
+msgid ""
+"If enabeld the blog will display excerpts. If disabeled it will display the "
+"full post content for entries."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:982
+#: inc/vc/shortcodes/blog-grid.php:312 inc/vc/shortcodes/blog.php:261
+#: inc/vc/shortcodes/detailed-galleries.php:377
+#: inc/vc/shortcodes/events-grid.php:275 inc/vc/shortcodes/events.php:224
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:983
+msgid ""
+"Add your own custom blog excerpt length. Used for blog page, archives and "
+"search results."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1001
+msgid "Single Posts Main Heading"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1002
+msgid ""
+"Enter a custom title for the single posts main heading. Default is \"News\"."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1009
+msgid "Display Category Name For Post Main Heading"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1010
+msgid ""
+"If enabled instead of showing \"News\" as the main heading on your blog "
+"posts it will show the name of the first category the post is in."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1018
+msgid "Featured Image On Blog Posts"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1019
+msgid "Select to enable or disable the featured image on single blog posts."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1054
+msgid ""
+"Select to enable or disable the lightbox function when clicking a featured "
+"image on a single blog post."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1063
+msgid "Related Blog Posts"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1064
+msgid "Select to display related blog posts or not."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1074
+msgid "Social"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1079
+msgid "Social Links In header"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1080
+msgid "Select to enable or disable the social icons in the header."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1089
+msgid "Social Font Icons"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1096
+msgid "Social Margin Top"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1097
+msgid "Enter a custom top margin for your social links."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1114
+msgid "Enter your "
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1114
+msgid " url"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1114
+msgid "Include http:// at the front of the url."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1126
+msgid "Tracking"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1131
+msgid "Tracking Code (Header)"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1132
+msgid ""
+"Paste your full Google Analytics code (or other) tracking code here. This "
+"will be added into the header template of your theme."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1139
+msgid "Tracking Code (Footer)"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1140
+msgid ""
+"Paste your full Google Analytics code (or other) tracking code here. This "
+"will be added into the footer template of your theme."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1153
+msgid "Custom Copyright Text"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1154
+msgid "Enter your custom copyright text here."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1161
+#: inc/theme-panel/functions/functions.options.php:1165
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1182
+msgid ""
+"Enable or disable the built-in Highlights post type. Refresh your browser "
+"after altering this setting."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1190
+msgid "FAQs Post Type"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1192
+msgid ""
+"Enable or disable the built-in faqs post type. Refresh your browser after "
+"altering this setting."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1199
+msgid "Retina Support"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1200
+msgid ""
+"Select to enable or disable retina support. Disable to save server space."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1209
+msgid "Menu Dropdown Arrows"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1210
+msgid "Select to show or hide the dropdown arrows in the main menu."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1213
+msgid "Show"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1214
+msgid "Hide"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1219
+msgid "Comments On Blog Posts"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1220
+msgid "Select to enable/disable comments on blog posts."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1229
+msgid "Comments On Galleries"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1230
+msgid "Select to enable/disable comments on single gallery posts."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1239
+msgid "Comments On Pages"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1240
+#: inc/theme-panel/functions/functions.options.php:1250
+msgid "Select to enable/disable comments on regular pages."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1249
+msgid "Google API Key"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1257
+msgid "Backup"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1262
+msgid "Backup and Restore Option"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1266
+msgid ""
+"You can use the two buttons below to backup your current options, and then "
+"restore it back at a later time. This is useful if you want to experiment on "
+"the options but would like to keep the old settings in case you need it back."
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1270
+msgid "Transfer Theme Options Data"
+msgstr ""
+
+#: inc/theme-panel/functions/functions.options.php:1274
+msgid ""
+"You can tranfer the saved options data between different installs by copying "
+"the text inside the text box. To import data from another install, replace "
+"the data in the text box with the one from another install and click "
+"\"Import Options."
+msgstr ""
+
+#: inc/vc/extend.php:126
+msgid "Custom Fonts"
+msgstr ""
+
+#: inc/vc/extend.php:135
+msgid "Standard Fonts"
+msgstr ""
+
+#: inc/vc/extend.php:143
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/vc/extend.php:213 inc/vc/extend.php:219 inc/vc/extend.php:225
+#: inc/vc/extend.php:231 inc/vc/shortcodes/buttons.php:15
+#: inc/vc/shortcodes/list.php:14 inc/vc/shortcodes/spacing.php:15
+#: inc/vc/shortcodes/wpml.php:15
+msgid "Earth"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:204
+msgid "Blog Grid"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:205
+msgid "Recent posts in grid format."
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:212 inc/vc/shortcodes/blog.php:180
+#: inc/vc/shortcodes/detailed-galleries.php:254
+#: inc/vc/shortcodes/events-grid.php:218 inc/vc/shortcodes/events.php:199
+#: inc/vc/shortcodes/heading.php:55 inc/vc/shortcodes/image-grid.php:168
+#: inc/vc/shortcodes/simple-galleries.php:253
+msgid "Unique Id"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:219
+#: inc/vc/shortcodes/detailed-galleries.php:261
+#: inc/vc/shortcodes/events-grid.php:225 inc/vc/shortcodes/image-grid.php:180
+#: inc/vc/shortcodes/simple-galleries.php:260
+msgid "Columns"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:230 inc/vc/shortcodes/blog.php:186
+#: inc/vc/shortcodes/detailed-galleries.php:273
+#: inc/vc/shortcodes/events-grid.php:303 inc/vc/shortcodes/events.php:252
+#: inc/vc/shortcodes/simple-galleries.php:290
+msgid "Order By"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:233 inc/vc/shortcodes/blog-grid.php:292
+#: inc/vc/shortcodes/blog.php:190 inc/vc/shortcodes/detailed-galleries.php:277
+#: inc/vc/shortcodes/events-grid.php:236
+#: inc/vc/shortcodes/simple-galleries.php:294
+msgid "Date"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:234 inc/vc/shortcodes/blog.php:191
+#: inc/vc/shortcodes/detailed-galleries.php:278
+#: inc/vc/shortcodes/events-grid.php:308 inc/vc/shortcodes/events.php:257
+#: inc/vc/shortcodes/simple-galleries.php:295
+msgid "Name"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:235 inc/vc/shortcodes/blog.php:192
+#: inc/vc/shortcodes/detailed-galleries.php:279
+#: inc/vc/shortcodes/events-grid.php:309 inc/vc/shortcodes/events.php:258
+#: inc/vc/shortcodes/simple-galleries.php:296
+msgid "Modified"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:236 inc/vc/shortcodes/blog.php:193
+#: inc/vc/shortcodes/detailed-galleries.php:280
+#: inc/vc/shortcodes/events-grid.php:310 inc/vc/shortcodes/events.php:259
+#: inc/vc/shortcodes/simple-galleries.php:297
+msgid "Author"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:237 inc/vc/shortcodes/blog.php:194
+#: inc/vc/shortcodes/detailed-galleries.php:281
+#: inc/vc/shortcodes/events-grid.php:311 inc/vc/shortcodes/events.php:260
+#: inc/vc/shortcodes/simple-galleries.php:298
+msgid "Random"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:238 inc/vc/shortcodes/blog.php:195
+#: inc/vc/shortcodes/detailed-galleries.php:282
+#: inc/vc/shortcodes/events-grid.php:312 inc/vc/shortcodes/events.php:261
+#: inc/vc/shortcodes/simple-galleries.php:299
+msgid "Comment Count"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:240 inc/vc/shortcodes/blog-grid.php:250
+#: inc/vc/shortcodes/blog-grid.php:260 inc/vc/shortcodes/blog-grid.php:270
+#: inc/vc/shortcodes/blog-grid.php:277 inc/vc/shortcodes/blog-grid.php:288
+#: inc/vc/shortcodes/blog.php:197 inc/vc/shortcodes/blog.php:208
+#: inc/vc/shortcodes/blog.php:218 inc/vc/shortcodes/blog.php:228
+#: inc/vc/shortcodes/blog.php:236 inc/vc/shortcodes/blog.php:247
+#: inc/vc/shortcodes/detailed-galleries.php:284
+#: inc/vc/shortcodes/detailed-galleries.php:295
+#: inc/vc/shortcodes/detailed-galleries.php:305
+#: inc/vc/shortcodes/detailed-galleries.php:315
+#: inc/vc/shortcodes/detailed-galleries.php:323
+#: inc/vc/shortcodes/detailed-galleries.php:334
+#: inc/vc/shortcodes/events-grid.php:288 inc/vc/shortcodes/events-grid.php:298
+#: inc/vc/shortcodes/events-grid.php:314 inc/vc/shortcodes/events-grid.php:324
+#: inc/vc/shortcodes/events-grid.php:331 inc/vc/shortcodes/events-grid.php:341
+#: inc/vc/shortcodes/events.php:237 inc/vc/shortcodes/events.php:247
+#: inc/vc/shortcodes/events.php:263 inc/vc/shortcodes/events.php:273
+#: inc/vc/shortcodes/events.php:280 inc/vc/shortcodes/events.php:290
+#: inc/vc/shortcodes/simple-galleries.php:301
+#: inc/vc/shortcodes/simple-galleries.php:312
+#: inc/vc/shortcodes/simple-galleries.php:322
+#: inc/vc/shortcodes/simple-galleries.php:332
+#: inc/vc/shortcodes/simple-galleries.php:340
+#: inc/vc/shortcodes/simple-galleries.php:351
+msgid "Query"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:244 inc/vc/shortcodes/blog.php:201
+#: inc/vc/shortcodes/detailed-galleries.php:288
+#: inc/vc/shortcodes/events-grid.php:318 inc/vc/shortcodes/events.php:267
+#: inc/vc/shortcodes/simple-galleries.php:305
+msgid "Order"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:247 inc/vc/shortcodes/blog.php:205
+#: inc/vc/shortcodes/detailed-galleries.php:292
+#: inc/vc/shortcodes/events-grid.php:321 inc/vc/shortcodes/events.php:270
+#: inc/vc/shortcodes/simple-galleries.php:309
+msgid "ASC"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:248 inc/vc/shortcodes/blog.php:206
+#: inc/vc/shortcodes/detailed-galleries.php:293
+#: inc/vc/shortcodes/events-grid.php:322 inc/vc/shortcodes/events.php:271
+#: inc/vc/shortcodes/simple-galleries.php:310
+msgid "DESC"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:255 inc/vc/shortcodes/blog.php:213
+#: inc/vc/shortcodes/detailed-galleries.php:300
+#: inc/vc/shortcodes/simple-galleries.php:317
+msgid "Include Categories"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:259 inc/vc/shortcodes/blog.php:217
+#: inc/vc/shortcodes/detailed-galleries.php:304
+#: inc/vc/shortcodes/simple-galleries.php:321
+msgid ""
+"Enter the slugs of a categories (comma seperated) to pull posts from or "
+"enter \"all\" to pull recent posts from all categories. Example: category-1, "
+"category-2."
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:265 inc/vc/shortcodes/blog.php:223
+#: inc/vc/shortcodes/detailed-galleries.php:310
+#: inc/vc/shortcodes/simple-galleries.php:327
+msgid "Exclude Categories"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:269 inc/vc/shortcodes/blog.php:227
+#: inc/vc/shortcodes/detailed-galleries.php:314
+#: inc/vc/shortcodes/simple-galleries.php:331
+msgid ""
+"Enter the slugs of a categories (comma seperated) to exclude. Example: "
+"category-1, category-2."
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:274 inc/vc/shortcodes/blog.php:232
+#: inc/vc/shortcodes/detailed-galleries.php:319
+#: inc/vc/shortcodes/events-grid.php:328 inc/vc/shortcodes/events.php:277
+#: inc/vc/shortcodes/simple-galleries.php:336
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:281 inc/vc/shortcodes/blog.php:240
+#: inc/vc/shortcodes/detailed-galleries.php:327
+#: inc/vc/shortcodes/events-grid.php:335 inc/vc/shortcodes/events.php:284
+#: inc/vc/shortcodes/simple-galleries.php:344
+msgid "Pagination"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:287 inc/vc/shortcodes/blog.php:246
+#: inc/vc/shortcodes/detailed-galleries.php:333
+#: inc/vc/shortcodes/simple-galleries.php:350
+msgid ""
+"Paginate posts? Important: Pagination will not work on your homepage because "
+"of how WordPress works."
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:298 inc/vc/shortcodes/blog-grid.php:308
+#: inc/vc/shortcodes/blog-grid.php:315
+#: inc/vc/shortcodes/detailed-galleries.php:373
+#: inc/vc/shortcodes/detailed-galleries.php:380
+msgid "Description"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:302 inc/vc/shortcodes/blog.php:251
+#: inc/vc/shortcodes/blog.php:257 inc/vc/shortcodes/blog.php:264
+#: inc/vc/shortcodes/detailed-galleries.php:367
+#: inc/vc/shortcodes/events-grid.php:266 inc/vc/shortcodes/events.php:215
+msgid "Excerpt"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:320 inc/vc/shortcodes/blog.php:269
+#: inc/vc/shortcodes/detailed-galleries.php:386
+#: inc/vc/shortcodes/events-grid.php:347 inc/vc/shortcodes/image-grid.php:242
+#: inc/vc/shortcodes/simple-galleries.php:385
+msgid "Image Width"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:323 inc/vc/shortcodes/blog-grid.php:331
+#: inc/vc/shortcodes/blog-grid.php:338 inc/vc/shortcodes/blog.php:272
+#: inc/vc/shortcodes/blog.php:280 inc/vc/shortcodes/blog.php:287
+#: inc/vc/shortcodes/detailed-galleries.php:389
+#: inc/vc/shortcodes/detailed-galleries.php:397
+#: inc/vc/shortcodes/detailed-galleries.php:404
+#: inc/vc/shortcodes/events-grid.php:350 inc/vc/shortcodes/events-grid.php:358
+#: inc/vc/shortcodes/events-grid.php:365 inc/vc/shortcodes/image-grid.php:245
+#: inc/vc/shortcodes/image-grid.php:253 inc/vc/shortcodes/image-grid.php:260
+#: inc/vc/shortcodes/simple-galleries.php:388
+#: inc/vc/shortcodes/simple-galleries.php:396
+#: inc/vc/shortcodes/simple-galleries.php:403
+msgid "Image"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:328 inc/vc/shortcodes/blog.php:277
+#: inc/vc/shortcodes/detailed-galleries.php:394
+#: inc/vc/shortcodes/events-grid.php:355 inc/vc/shortcodes/image-grid.php:250
+#: inc/vc/shortcodes/simple-galleries.php:393
+msgid "Image Height"
+msgstr ""
+
+#: inc/vc/shortcodes/blog-grid.php:336 inc/vc/shortcodes/blog.php:285
+#: inc/vc/shortcodes/detailed-galleries.php:402
+#: inc/vc/shortcodes/events-grid.php:363 inc/vc/shortcodes/image-grid.php:258
+#: inc/vc/shortcodes/simple-galleries.php:401
+msgid "Image Crop"
+msgstr ""
+
+#: inc/vc/shortcodes/blog.php:121 single.php:224
+#: template-parts/home/blog-full.php:79 template-parts/home/blog.php:76
+msgid "Posted On "
+msgstr ""
+
+#: inc/vc/shortcodes/blog.php:173
+msgid "Recent blog posts."
+msgstr ""
+
+#: inc/vc/shortcodes/blog.php:188 inc/vc/shortcodes/detailed-galleries.php:275
+#: inc/vc/shortcodes/simple-galleries.php:292
+#, php-format
+msgid "Select how to sort retrieved posts. More at %s."
+msgstr ""
+
+#: inc/vc/shortcodes/blog.php:203 inc/vc/shortcodes/detailed-galleries.php:290
+#: inc/vc/shortcodes/simple-galleries.php:307
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: inc/vc/shortcodes/blog.php:235 inc/vc/shortcodes/detailed-galleries.php:322
+#: inc/vc/shortcodes/simple-galleries.php:339
+msgid "How many posts do you wish to show?"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:12
+msgid "Button"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:16
+msgid "Theme button."
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:29 inc/vc/shortcodes/wpml.php:30
+msgid "Content"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:43
+msgid "Button Color"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:47
+msgid "Brown"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:48 inc/vc/shortcodes/list.php:25
+msgid "Black"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:49 inc/vc/shortcodes/list.php:26
+msgid "Blue"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:50
+msgid "Grey"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:51
+msgid "Light Grey"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:52
+msgid "Green"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:53
+msgid "Gold"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:54
+msgid "Orange"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:55
+msgid "Pink"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:56 inc/vc/shortcodes/list.php:28
+msgid "Purple"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:57 inc/vc/shortcodes/list.php:29
+msgid "Red"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:58
+msgid "Rosy"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:64
+msgid "Link Target"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:74
+msgid "Link Rel"
+msgstr ""
+
+#: inc/vc/shortcodes/buttons.php:78
+msgid "Nofollow"
+msgstr ""
+
+#: inc/vc/shortcodes/detailed-galleries.php:130
+#: inc/vc/shortcodes/simple-galleries.php:133 inc/widgets/recent-gallery.php:99
+#: inc/widgets/recent-posts.php:96 template-gallery-filter.php:42
+msgid "All"
+msgstr ""
+
+#: inc/vc/shortcodes/detailed-galleries.php:246
+msgid "Detailed Galleries"
+msgstr ""
+
+#: inc/vc/shortcodes/detailed-galleries.php:247
+msgid "Recent gallery posts (with details)."
+msgstr ""
+
+#: inc/vc/shortcodes/detailed-galleries.php:339
+#: inc/vc/shortcodes/simple-galleries.php:356
+msgid "Category Filter"
+msgstr ""
+
+#: inc/vc/shortcodes/detailed-galleries.php:345
+#: inc/vc/shortcodes/detailed-galleries.php:355
+#: inc/vc/shortcodes/detailed-galleries.php:362
+#: inc/vc/shortcodes/simple-galleries.php:362
+#: inc/vc/shortcodes/simple-galleries.php:372
+#: inc/vc/shortcodes/simple-galleries.php:379
+msgid "Filter"
+msgstr ""
+
+#: inc/vc/shortcodes/detailed-galleries.php:349
+#: inc/vc/shortcodes/simple-galleries.php:366
+msgid "Center Filter Links"
+msgstr ""
+
+#: inc/vc/shortcodes/detailed-galleries.php:359
+#: inc/vc/shortcodes/simple-galleries.php:376
+msgid "Custom Category Filter \"All\" Text"
+msgstr ""
+
+#: inc/vc/shortcodes/events-grid.php:98
+msgid "Ended"
+msgstr ""
+
+#: inc/vc/shortcodes/events-grid.php:209
+msgid "Events Grid"
+msgstr ""
+
+#: inc/vc/shortcodes/events-grid.php:210
+msgid "Recent events in grid format."
+msgstr ""
+
+#: inc/vc/shortcodes/events-grid.php:255 inc/vc/shortcodes/events.php:205
+msgid "Display Event Time"
+msgstr ""
+
+#: inc/vc/shortcodes/events-grid.php:282 inc/vc/shortcodes/events.php:231
+msgid "Exclude Past Events"
+msgstr ""
+
+#: inc/vc/shortcodes/events-grid.php:292 inc/vc/shortcodes/events.php:241
+msgid "Display Past Events Only"
+msgstr ""
+
+#: inc/vc/shortcodes/events-grid.php:306 inc/vc/shortcodes/events.php:255
+msgid "Event Date"
+msgstr ""
+
+#: inc/vc/shortcodes/events-grid.php:307 inc/vc/shortcodes/events.php:256
+msgid "Post Date"
+msgstr ""
+
+#: inc/vc/shortcodes/events.php:191
+msgid "Recent events."
+msgstr ""
+
+#: inc/vc/shortcodes/events.php:295
+msgid "Date Border Color"
+msgstr ""
+
+#: inc/vc/shortcodes/events.php:298 inc/vc/shortcodes/events.php:305
+#: inc/vc/shortcodes/image-grid.php:191 inc/vc/shortcodes/image-grid.php:201
+msgid "Design"
+msgstr ""
+
+#: inc/vc/shortcodes/events.php:302
+msgid "Month Color"
+msgstr ""
+
+#: inc/vc/shortcodes/heading.php:47
+msgid "Heading"
+msgstr ""
+
+#: inc/vc/shortcodes/heading.php:48
+msgid "Standard theme heading."
+msgstr ""
+
+#: inc/vc/shortcodes/heading.php:61
+msgid "Heading Text"
+msgstr ""
+
+#: inc/vc/shortcodes/heading.php:63
+msgid "Your Heading"
+msgstr ""
+
+#: inc/vc/shortcodes/heading.php:67 inc/vc/shortcodes/leader.php:202
+msgid "Font Size"
+msgstr ""
+
+#: inc/vc/shortcodes/heading.php:72
+msgid "Bottom Margin"
+msgstr ""
+
+#: inc/vc/shortcodes/heading.php:78
+msgid "Text Align"
+msgstr ""
+
+#: inc/vc/shortcodes/heading.php:81
+msgid "Left"
+msgstr ""
+
+#: inc/vc/shortcodes/heading.php:82
+msgid "Center"
+msgstr ""
+
+#: inc/vc/shortcodes/heading.php:83
+msgid "Right"
+msgstr ""
+
+#: inc/vc/shortcodes/heading.php:88
+msgid "URL (Link)"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:22
+msgid "Please select your images for your grid"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:160
+msgid "Image Grid"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:161
+msgid "Responsive image gallery"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:175
+msgid "Attach Images"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:195
+#: inc/vc/shortcodes/simple-galleries.php:279
+msgid "Display Title"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:205
+msgid "Image Link"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:209
+msgid "Lightbox"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:210
+msgid "Custom Links"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:212 inc/vc/shortcodes/image-grid.php:223
+#: inc/vc/shortcodes/image-grid.php:237
+msgid "Links"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:216
+msgid "Custom links"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:218
+msgid ""
+"Enter links for each slide here. Divide links with linebreaks (Enter). For "
+"images without a link enter a # symbol. And don't forget to include the "
+"http:// at the front."
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:227
+msgid "Custom link target"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:234
+msgid "Same window"
+msgstr ""
+
+#: inc/vc/shortcodes/image-grid.php:235
+msgid "New window"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:85 inc/vc/shortcodes/leader.php:150
+#: inc/vc/shortcodes/leader.php:210 inc/vc/shortcodes/leader.php:216
+#: inc/vc/shortcodes/leader.php:228 inc/vc/shortcodes/leader.php:234
+msgid "Label"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:86 inc/vc/shortcodes/leader.php:156
+#: inc/vc/shortcodes/leader.php:241 inc/vc/shortcodes/leader.php:247
+#: inc/vc/shortcodes/leader.php:259 inc/vc/shortcodes/leader.php:265
+msgid "Value"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:111 inc/vc/shortcodes/leader.php:225
+#: inc/vc/shortcodes/leader.php:256
+msgid "Normal"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:112
+msgid "Semibold"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:113
+msgid "Bold"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:114
+msgid "Bolder"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:126
+msgid "Leader (Menu Items)"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:127
+msgid "CSS dot or line leader (menu item)"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:136
+msgid "Leaders"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:139
+msgid "One"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:143
+msgid "Two"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:165
+msgid "Classes"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:170
+msgid "Appear Animation"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:174
+msgid "Top to bottom"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:175
+msgid "Bottom to top"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:176
+msgid "Left to right"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:177
+msgid "Right to left"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:178
+msgid "Appear from center"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:183 inc/vc/shortcodes/list.php:21
+msgid "Style"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:186
+msgid "Dots"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:187
+msgid "Dashes"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:192 inc/vc/shortcodes/leader.php:209
+#: inc/vc/shortcodes/leader.php:240
+msgid "Color"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:197
+msgid "Background"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:215 inc/vc/shortcodes/leader.php:246
+msgid "Font Weight"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:222
+msgid "Font Style"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:226 inc/vc/shortcodes/leader.php:257
+msgid "Italic"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:232 inc/vc/shortcodes/leader.php:263
+msgid "Font Family"
+msgstr ""
+
+#: inc/vc/shortcodes/leader.php:253
+msgid "font Style"
+msgstr ""
+
+#: inc/vc/shortcodes/list.php:12 inc/vc/shortcodes/list.php:35
+msgid "List"
+msgstr ""
+
+#: inc/vc/shortcodes/list.php:15
+msgid "Styled bulleted list."
+msgstr ""
+
+#: inc/vc/shortcodes/list.php:24
+msgid "Check"
+msgstr ""
+
+#: inc/vc/shortcodes/list.php:27
+msgid "Gray"
+msgstr ""
+
+#: inc/vc/shortcodes/simple-galleries.php:244
+msgid "Simple Galleries"
+msgstr ""
+
+#: inc/vc/shortcodes/simple-galleries.php:245
+msgid "Recent gallery posts (simple)."
+msgstr ""
+
+#: inc/vc/shortcodes/spacing.php:13 inc/vc/shortcodes/spacing.php:22
+msgid "Spacing"
+msgstr ""
+
+#: inc/vc/shortcodes/spacing.php:16
+msgid "Spacing for seperating modules."
+msgstr ""
+
+#: inc/vc/shortcodes/spacing.php:25
+msgid "Enter a height in pixels for your spacing."
+msgstr ""
+
+#: inc/vc/shortcodes/wpml.php:13
+msgid "WPML"
+msgstr ""
+
+#: inc/vc/shortcodes/wpml.php:16
+msgid "Display content in different language."
+msgstr ""
+
+#: inc/vc/shortcodes/wpml.php:22
+msgid "Language"
+msgstr ""
+
+#: inc/vc/shortcodes/wpml.php:25
+msgid "Select a WPML language."
+msgstr ""
+
+#: inc/widgets/featured-events.php:8
+msgid "Earth - Featured Events"
+msgstr ""
+
+#: inc/widgets/featured-events.php:79
+msgid "Featured Events"
+msgstr ""
+
+#: inc/widgets/featured-events.php:83 inc/widgets/flickr-widget.php:55
+#: inc/widgets/recent-gallery.php:89 inc/widgets/recent-posts.php:86
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/featured-events.php:87 inc/widgets/recent-gallery.php:93
+#: inc/widgets/recent-posts.php:90
+msgid "Number to Show:"
+msgstr ""
+
+#: inc/widgets/flickr-widget.php:8
+msgid "Earth - Flickr"
+msgstr ""
+
+#: inc/widgets/flickr-widget.php:60
+msgid "Flickr ID "
+msgstr ""
+
+#: inc/widgets/flickr-widget.php:65
+msgid "Number:"
+msgstr ""
+
+#: inc/widgets/recent-gallery.php:8
+msgid "Earth - Recent Gallery Items"
+msgstr ""
+
+#: inc/widgets/recent-gallery.php:97 inc/widgets/recent-posts.php:94
+msgid "Select a Category:"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:8
+msgid "Earth - Recent Posts With Thumbnails"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:78 single.php:20
+msgid "News"
+msgstr ""
+
+#: inc/widgets/widget-areas.php:13
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/widgets/widget-areas.php:25
+msgid "Events Sidebar"
+msgstr ""
+
+#: inc/widgets/widget-areas.php:37
+msgid "Footer First"
+msgstr ""
+
+#: inc/widgets/widget-areas.php:47
+msgid "Footer Second"
+msgstr ""
+
+#: inc/widgets/widget-areas.php:57
+msgid "Footer Third"
+msgstr ""
+
+#: inc/widgets/widget-areas.php:67
+msgid "Footer Fourth"
+msgstr ""
+
+#: page.php:44 single-events.php:247 single.php:119 template-fullwidth.php:42
+msgid "Edit This"
+msgstr ""
+
+#: search.php:13
+msgid "Search Results For"
+msgstr ""
+
+#: search.php:38
+msgid "No Results Found"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: single-events.php:27
+msgid "Event: "
+msgstr ""
+
+#: single-events.php:35 single-events.php:40 single-events.php:48
+msgid "Time to event"
+msgstr ""
+
+#: single-events.php:35 single-events.php:40
+msgid "days"
+msgstr ""
+
+#: single-events.php:35
+msgid "hours"
+msgstr ""
+
+#: single-events.php:35
+msgid "minutes"
+msgstr ""
+
+#: single-events.php:35
+msgid "seconds"
+msgstr ""
+
+#: single-events.php:48
+msgid "This event has already started/finished"
+msgstr ""
+
+#: single-events.php:115
+msgid "Details"
+msgstr ""
+
+#: single-events.php:121
+msgid "Map"
+msgstr ""
+
+#: single.php:66 template-parts/post-entry.php:40
+msgid "Published on"
+msgstr ""
+
+#: single.php:70 template-parts/post-entry.php:42
+msgid "under"
+msgstr ""
+
+#: single.php:127
+msgid "Tagged:"
+msgstr ""
+
+#: single.php:195
+msgid "Related Articles"
+msgstr ""
+
+#: template-parts/home/blog-full.php:43 template-parts/home/blog.php:38
+#: template-parts/home/events-full.php:48 template-parts/home/events.php:48
+msgid "Recent Events"
+msgstr ""

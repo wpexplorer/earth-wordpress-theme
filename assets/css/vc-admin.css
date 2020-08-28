@@ -1,0 +1,105 @@
+.vc_ui-panel .vc_panel-tabs {
+    padding-bottom: 10px;
+}
+
+body #vc_preloader {
+    background: #fff;
+    background: rgba(0,0,0,0.15);
+}
+
+body #vc_preloader::before {
+    content: "";
+    display: block;
+    background: url(../images/spinner-light.svg);
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -16px;
+    margin-left: -16px;
+    animation: vc_ui-wp-spinner-animation 1.08s linear infinite;
+}
+
+body .vc_welcome-brand { display: none !important; }
+body .vc_welcome-header { line-height: normal; margin-bottom: 20px; }
+
+body #vc_logo {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 60px;
+    height: 55px;
+    padding: 28px 0;
+    background: #0473AB !important;
+    opacity: 1;
+    transition: all 0.35s ease;
+}
+
+body #vc_logo.vc_ui-wp-spinner {
+    display: block;
+}
+body #vc_logo.vc_ui-wp-spinner::before {
+    opacity: 0.7;
+    background: url(../images/spinner-light.svg);
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.vc_css-editor .vc_layout-onion .vc_margin .vc_border .vc_padding .vc_content i {
+    display: none !important;
+}
+
+.composer-switch .logo-icon {
+    display: none !important;
+}
+
+.composer-switch .vc_spacer {
+    display: none !important; 
+}
+
+.composer-switch .wpb_switch-to-composer {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: 1px solid #1f5b8c;
+}
+
+.vc_welcome .vc_add-element-button,
+.vc_welcome .vc_add-text-block-button,
+.vc_default-templates #vc_templates-more-layouts {
+    padding-right: 20px;
+}
+
+body .composer-switch {
+    margin-top: 7px;
+}
+
+body .composer-switch a,
+body .composer-switch a:visited {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-right: 5px;
+}
+
+body .composer-switch a.wpb_switch-to-composer:hover,
+body .composer-switch a:visited.wpb_switch-to-composer:hover,
+body .composer-switch a.wpb_switch-to-front-composer:hover,
+body .composer-switch a:visited.wpb_switch-to-front-composer:hover {
+    background-color: #036291;
+}
+
+body .composer-switch .wpb_switch-to-composer {
+    border-right: 0;
+    border-radius: 4px;
+}
+
+body .composer-switch a:last-of-type {
+    border-radius: 4px;
+}

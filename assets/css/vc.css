@@ -1,0 +1,7 @@
+.earth-vc-icon { display: block; width: 28px !important; height: 28px !important; line-height: 28px !important; background: #633f2c !important; border-radius: 6px; text-align: center; }
+.earth-vc-icon:before { font-size: 16px; color: #fff; }
+
+/* VC Icons */
+.icon-wpb-wp { background: #093459 !important; display: block; width: 32px !important; height: 32px !important; line-height: 32px !important; border-radius: 8px; text-align: center; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; transform: translate(0, 0); font-size: 14px; color: #fff; display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; transform: translate(0, 0); }
+.icon-wpb-wp:before { content: "\f19a" }
+.icon-wpb-wp { background: #21759b!important; font-size: 18px; }
