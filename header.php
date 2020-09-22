@@ -25,8 +25,10 @@
 
 <body <?php body_class(); ?>>
 
+	<?php wp_body_open(); ?>
+
 	<header id="masterhead" class="clr">
-		
+
 		<div id="logo">
 			<?php
 			// Custom Logo
@@ -67,7 +69,7 @@
 		<?php } ?>
 
 	</header>
-	
+
 	<div id="wrapper" class="clr">
 
 		<main id="main" class="clr">
@@ -87,7 +89,7 @@
 				//show search box
 				if ( $has_search ) {
 					get_search_form();
-				} ?>   
+				} ?>
 			</nav>
 
 			<?php earth_page_slider() ?>
