@@ -13,10 +13,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 function earth_scripts() {
-	
+
 	/*******
 	*** CSS
-	*******************/	
+	*******************/
 	wp_enqueue_style( 'earth-style', get_stylesheet_uri() );
 
 	wp_enqueue_style( 'earth-ie7', EARTH_ASSETS_DIR_URI . 'css/ie7.css' );
@@ -42,19 +42,9 @@ function earth_scripts() {
 	/*******
 	*** JS
 	*******************/
-	
+
 	// Load jQuery
 	wp_enqueue_script( 'jquery' );
-
-	// HTML5 support
-	wp_enqueue_script(
-		'earth-html5-shiv',
-		EARTH_ASSETS_DIR_URI . 'js/html5.js',
-		array( 'jquery' ),
-		'1.0',
-		true
-	);
-	wp_script_add_data( 'earth-html5-shiv', 'conditional', 'lt IE 9' );
 
 	// Define FAQ script
 	wp_register_script(
@@ -77,7 +67,7 @@ function earth_scripts() {
 		);
 
 	}
-		
+
 	// Calendar template js
 	if ( is_page_template( 'template-events-calendar.php' ) ) {
 
@@ -95,7 +85,7 @@ function earth_scripts() {
 		) );
 
 	}
-	
+
 	// Threaded comments js
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -117,7 +107,7 @@ function earth_scripts() {
 		'2.0',
 		true
 	);
-	
+
 	wp_register_script(
 		'isotope-vc-galleries',
 		EARTH_ASSETS_DIR_URI . 'js/isotope-vc-galleries.js',
@@ -133,7 +123,7 @@ function earth_scripts() {
 		'1.5.19',
 		true
 	);
-	
+
 	wp_register_script(
 		'isotope-gallery',
 		EARTH_ASSETS_DIR_URI . '/js/isotope-gallery.js',
@@ -157,7 +147,7 @@ function earth_scripts() {
 		'1.0',
 		true
 	);
-	
+
 	// Global theme js
 	wp_enqueue_script(
 		'earth-functions',
@@ -173,7 +163,7 @@ function earth_scripts() {
 	) );
 
 	wp_localize_script( 'earth-functions', 'earthVars', $vars );
-	
+
 }
 add_action( 'wp_enqueue_scripts', 'earth_scripts' );
 
