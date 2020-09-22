@@ -1,12 +1,12 @@
 /*
 Theme Name: Earth
-Theme URI: http://www.wpexplorer.com
-Description: WordPress theme by <a href="http://www.wpexplorer.com">WPExplorer.com</a>
+Theme URI: https://github.com/wpexplorer/earth-wordpress-theme
+Description: Deprecated non-profit theme with built-in calendar.
 Author: WPExplorer
-Author URI: http://themeforest.net/user/WPExplorer
-Version: 4.4.1
-License: Dual Licensed GPL + Themeforest License
-License URI: README_License.txt
+Author URI: https://github.com/wpexplorer/earth-wordpress-theme
+Version: 4.5
+License: GPL
+License URI: README.md
 Text Domain: earth
 Tags: custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready
 
@@ -239,9 +239,12 @@ a.styled-img { background: #16110e }
 .tipsy-south { background-position: bottom center }
 
 /*image overlay*/
-.img-overlay { display: none; position: absolute; height: 40px; line-height: 40px; text-align: center; width: 40px; top: 50%; left: 50%; margin-top: -20px; margin-left: -20px; font-size: 21px; color: #f9d727; }
+.img-overlay { opacity: 0; visibility: hidden; transition: all 300ms; position: absolute; height: 40px; line-height: 40px; text-align: center; width: 40px; top: 50%; left: 50%; margin-top: -20px; margin-left: -20px; font-size: 21px; color: #f9d727; }
 #recent-photos .img-overlay { font-size: 16px }
 .widget-recent-gallery .img-overlay { font-size: 12px }
+.styled-img img { transition: opacity 300ms; }
+.styled-img:hover img { opacity: 0.5; }
+.styled-img:hover .img-overlay { opacity: 1; visibility: visible; }
 
 /*table styling*/
 .entry table {width: 100%; border-collapse: collapse; border-spacing: 0; }
@@ -1569,5 +1572,5 @@ img.mfp-img { width: auto; max-width: 100%; height: auto; display: block; line-h
 /*------------------------------------------------------------------
 [35. General Responsiveness]
 -------------------------------------------------------------------*/
-#mainnav select, #mainnav .selector { display: none; }
+.mobile-menu-select { display: none; }
 .small-screen-event-title { display: none; }

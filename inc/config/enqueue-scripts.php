@@ -154,7 +154,7 @@ function earth_scripts() {
 		'superfish',
 		EARTH_ASSETS_DIR_URI . 'js/superfish.js',
 		array( 'jquery' ),
-		'1.4.8',
+		'1.7.9',
 		true
 	);
 
@@ -199,7 +199,7 @@ function earth_scripts() {
 		'uniform',
 		EARTH_ASSETS_DIR_URI . 'js/uniform.js',
 		array( 'jquery' ),
-		'2.1.0',
+		'4.3',
 		true
 	);
 
