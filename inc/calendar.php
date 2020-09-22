@@ -21,19 +21,19 @@ add_action( 'wp_ajax_nopriv_get_calendar', 'fetch_calendar' );
 function fetch_calendar() {
 
 	//security check
-	$nonce=$_POST['security'];	
+	$nonce=$_POST['security'];
 	if ( ! wp_verify_nonce($nonce, 'events_calendar' ) ) {
 		die( '-1' );
 	}
-	
+
 	//get ajax data
 	wp_parse_str( stripslashes( $_POST['data'] ), $data );
 	$month	= $data['month'];
 	$year	= $data['year'];
-	
+
 	//build the title, navs etc
 	$months = earth_get_months(); ?>
-	
+
 	<script type="text/javascript">
 	jQuery( function( $ ) {
 		$(document).ready(function(){
@@ -57,7 +57,7 @@ function fetch_calendar() {
 		<i class="fa fa-calendar"></i>
 		<?php echo esc_html( $months[$month] ) .' '. esc_html( $year ); ?>
 	</h2>
-	
+
 	<div id="calendar-month-select">
 		<form id="cal-trigger">
 			<select name="month">
@@ -79,15 +79,15 @@ function fetch_calendar() {
 			<a id="submit" class="cal-submit yellow-btn" href="#"><?php esc_html_e( 'Go', 'earth' ) ?></a>
 		</form>
 	</div><!-- #calendar-month-select -->
-	
+
 	<div class="clear"></div>
-	
+
 	<div id="calendar"></div><!-- #calendar -->
 
 	<?php
 	//return calendar to js
 	echo draw_calendar( $month, $year ); ?>
-	
+
 	<div id="cal-nav">
 
 		<?php
@@ -95,7 +95,7 @@ function fetch_calendar() {
 		$next_month	= $month + 1;
 		$next_month	= $next_month > 12 ? 1 : $next_month;
 		$next_year	= $next_month === 1 ? $year + 1 : $year;
-		
+
 		// Get previous month and year
 		$prev_month	= $month - 1;
 		$prev_month	= $prev_month <= 0 ? 12 : $prev_month;
@@ -138,7 +138,7 @@ function draw_calendar( $month, $year ) {
 
 	//start draw table
 	$calendar = '<table cellpadding="0" cellspacing="0" class="calendar">';
-	
+
 	// Check if start day is monday or sunday
 	$start_of_week = get_option( 'start_of_week' );
 	$start_of_week = ( 1 == $start_of_week ) ? $start_of_week : '';
@@ -169,7 +169,7 @@ function draw_calendar( $month, $year ) {
 	$calendar .= '<tr class="calendar-row days-row">';
 		$calendar .= '<td class="calendar-day-head">' . implode( '</td><td class="calendar-day-head">', $headings ) . '</td>';
 	$calendar .= '</tr>';
-	
+
 	// Get days of week
 	$running_day = date( 'w', mktime( 0, 0, 0, $month, 1, $year ) );
 
@@ -183,38 +183,38 @@ function draw_calendar( $month, $year ) {
 	$days_in_this_week	= 1;
 	$day_counter		= 0;
 	$dates_array		= array();
-	
+
 	//get today's date
 	$time			= current_time( 'timestamp' );
 	$today_day		= date( 'j', $time );
 	$today_month	= date( 'n', $time );
 	$today_year		= date( 'Y', $time );
-	
+
 	//row for week one */
 	$calendar .= '<tr class="calendar-row">';
-	
+
 	//print "blank" days until the first of the current week
 	for( $x = 0; $x < $running_day; $x++ ):
-	
+
 		$calendar .= '<td class="calendar-day-np">'.str_repeat( '<p>&nbsp;</p>', 2 ).'</td>';
 		$days_in_this_week++;
-		
+
 	endfor;
-	
+
 	//keep going with days
 	for( $list_day = 1; $list_day <= $days_in_month; $list_day++ ):
-		
+
 		if ( $today_day == $list_day && $today_month == $month && $today_year == $year ) {
 			$today = 'today';
 		} else {
 			$today = '';
 		}
-		
+
 		$cal_day = '<td class="calendar-day '. $today .'">';
-		
+
 		//add in the day numbering
 		$cal_day .= '<div class="day-number">'. esc_html( $list_day ) .'</div>';
-		
+
 		// QUERY THE DATABASE FOR AN ENTRY FOR THIS DAY !!  IF MATCHES FOUND, PRINT THEM !!
 		$events = new WP_Query( array(
 			'numberposts'      => -1,
@@ -225,13 +225,13 @@ function draw_calendar( $month, $year ) {
 		) );
 
 		$events = $events->posts;
-		
+
 		$cal_event = '';
-		
+
 		foreach ( $events as $event_id ) :
-		
+
 			$id = $event_id;
-			
+
 			// Event time
 			$event_time_display	= '';
 			$event_time = earth_get_event_start_time( $id );
@@ -239,14 +239,14 @@ function draw_calendar( $month, $year ) {
 			if ( $event_time && earth_get_option( 'enable_disable_calendar_time', true ) ) {
 				$event_time_display	= ' '. esc_html__( 'at', 'earth' ) .' ' . $event_time;
 			}
-			
+
 			//define start date
 			$timestamp	= earth_event_timestamp( 'start', $id );
 			if ( ! $timestamp ) continue;
 			$evt_day	= date( 'j', $timestamp );
 			$evt_month	= date( 'n', $timestamp );
 			$evt_year	= date( 'Y', $timestamp );
-			
+
 			//max days in the event's month
 			$last_day = date( 't', mktime(0, 0, 0, $evt_month, 1, $evt_year));
 
@@ -267,27 +267,27 @@ function draw_calendar( $month, $year ) {
 			if ( $evt_end_year < $year_range_min ||  $evt_end_year > $year_range_max ) {
 				continue;
 			}
-			
+
 			//check time diff
 			if ( ( $end_timestamp - $timestamp )/(60*60*24) > 0 ) {
-				
+
 				//we check if event spans between two diff months
 				if ( ( $evt_day + $days_span ) > $last_day ) :
-				
+
 					for( $running_evt_day = $evt_day, $evt_end_day = $evt_day + $days_span ; $running_evt_day <= $evt_end_day; $running_evt_day++ ) {
-						
+
 						$jimbo = $running_evt_day;
 						$limbo = $evt_month;
 						$kimbo = $evt_year;
-												
+
 						if ( $running_evt_day > $last_day ) {
-						
+
 							$jimbo = $running_evt_day - $last_day;
 							$limbo = $evt_end_month;
 							$kimbo = $evt_end_year;
-						
+
 						}
-						
+
 						if ( $jimbo == $list_day && $limbo == $month && $kimbo == $year ) {
 
 							// Event classes
@@ -299,16 +299,16 @@ function draw_calendar( $month, $year ) {
 
 							// Display event
 							$cal_event .= '<a href="'. get_permalink( $id ) .'" class="'. $entry_classes .'"><i class="fa fa-dot-circle-o"></i>'. get_the_title( $id ) . $event_time_display .'</a>';
-						
+
 						}
-					
+
 					}
-				
+
 				//else just consider for single month
-				else : 
-				
+				else :
+
 					for ( $running_evt_day = $evt_day, $evt_end_day = $evt_day + $days_span ; $running_evt_day <= $evt_end_day; $running_evt_day++ ) {
-						
+
 						if (
 							$running_evt_day == $list_day &&
 							$evt_month == $month &&
@@ -321,16 +321,16 @@ function draw_calendar( $month, $year ) {
 								$entry_classes[] = 'featured';
 							}
 							$entry_classes = implode( ' ', $entry_classes );
-						
+
 							// Display event
 							$cal_event .= '<a href="'. get_permalink( $id ) .'" class="'. $entry_classes .'"><i class="fa fa-dot-circle-o"></i>'. get_the_title( $id ) . $event_time_display .'</a>';
-						
+
 						}
-						
+
 					}
-				
+
 				endif;
-				
+
 			} else {
 				// We check if any events exists on current iteration
 				// If yes, return the link to event
@@ -342,53 +342,53 @@ function draw_calendar( $month, $year ) {
 						$entry_classes[] = 'featured';
 					}
 					$entry_classes = implode( ' ', $entry_classes );
-				
+
 					$cal_event .= '<a href="'. get_permalink( $id ) .'" class="'. $entry_classes .'"><i class="fa fa-dot-circle-o"></i>'. get_the_title( $id ) . $event_time_display .'</a>';
-				
+
 				}
 			}
-			
+
 		endforeach;
-		
+
 		$calendar .= $cal_day;
-		
+
 		$calendar .= $cal_event ? $cal_event : str_repeat( '<p>&nbsp;</p>',2);
-		
+
 		$calendar .= '</td>';
-		
+
 		if ( $running_day == 6 ):
-		
+
 			$calendar .= '</tr>';
-			
+
 			if ( ( $day_counter+1 ) != $days_in_month ):
 				$calendar .= '<tr class="calendar-row">';
 			endif;
-			
+
 			$running_day = -1;
 			$days_in_this_week = 0;
-			
+
 		endif;
-		
+
 		$days_in_this_week++; $running_day++; $day_counter++;
-	
+
 	endfor;
-	
+
 	// Finish the rest of the days in the week
 	if ( $days_in_this_week < 8 and $running_day ) :
 		for( $x = 1; $x <= ( 8 - $days_in_this_week ); $x++ ):
 			$calendar .= '<td class="calendar-day-np">' . str_repeat( '<p>&nbsp;</p>', 2 ) . '</td>';
 		endfor;
 	endif;
-	
+
 	//final row
 	$calendar .= '</tr>';
-	
+
 	//end the table
 	$calendar .= '</table>';
 
 	// Save transient
 	set_transient( 'earth_draw_calendar', $calendar, HOUR_IN_SECONDS );
-	
+
 	//all done, return the completed table
 	return $calendar;
 }
