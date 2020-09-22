@@ -1,6 +1,6 @@
-jQuery( function( $ )  {
+jQuery( function($)  {
 
-	$(document).ready( function()  {
+	$(document).ready( function() {
 		earthSuperfish();
 		earthTooltips();
 		earthFlickrEmbeds();

@@ -2,24 +2,24 @@
 
 	'use strict';
 
-	$( document ).on( 'ready', function() {
+	$(document).ready( function() {
 
 		// Uploading files
 		var image_gallery_frame;
 		var $image_gallery_ids   = $( '#image_gallery' );
 		var $wpex_gallery_images = $( '#wpex_gallery_images_container ul.wpex_gallery_images' );
-		
+
 		jQuery( '.add_wpex_gallery_images' ).on( 'click', 'a', function( event ) {
 			var $el = $( this );
 			var attachment_ids = $image_gallery_ids.val();
 			event.preventDefault();
-			
+
 			// If the media frame already exists, reopen it.
 			if ( image_gallery_frame ) {
 				image_gallery_frame.open();
 				return;
 			}
-			
+
 			// Create the media frame.
 			image_gallery_frame = wp.media.frames.downloadable_file = wp.media( {
 
@@ -31,7 +31,7 @@
 				multiple: true
 
 			} );
-			
+
 			// When an image is selected, run a callback.
 			image_gallery_frame.on( 'select', function() {
 				var selection = image_gallery_frame.state().get('selection');
@@ -51,9 +51,9 @@
 					}
 				} );
 				$image_gallery_ids.val( attachment_ids );
-			
+
 			} );
-			
+
 			// Finally, open the modal.
 			image_gallery_frame.open();
 

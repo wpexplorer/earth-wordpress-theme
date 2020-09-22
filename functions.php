@@ -17,7 +17,7 @@
  *
  * @package Earth WordPress Theme
  * @subpackage Templates
- * @version 4.4.1
+ * @version 4.5
  */
 
 
@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /*--------------------------------------*/
 /* Define Constants
 /*--------------------------------------*/
-define( 'EARTH_THEME_VERSION', '4.4.1' );
+define( 'EARTH_THEME_VERSION', '4.5' );
 define( 'EARTH_ASSETS_DIR_URI', get_template_directory_uri() . '/assets/' );
 define( 'EARTH_INC_DIR', get_template_directory() . '/inc/' );
 define( 'EARTH_INC_DIR_URI', get_template_directory_uri() . '/inc/' );

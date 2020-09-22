@@ -12,10 +12,12 @@ if ( ! function_exists( 'earth_get_cats' ) ) {
 	function earth_get_cats() {
 		$of_categories = array();  
 		$of_categories_obj = get_categories('hide_empty=0');
-		foreach ($of_categories_obj as $of_cat) {
-			$of_categories[$of_cat->cat_ID] = $of_cat->slug;
+		if ( $of_categories_obj && ! is_wp_error( $of_categories_obj ) ) {
+			foreach ($of_categories_obj as $of_cat) {
+				$of_categories[$of_cat->cat_ID] = $of_cat->slug;
+			}
+			$categories_tmp = array_unshift($of_categories, "-");
 		}
-		$categories_tmp = array_unshift($of_categories, "-");
 		return $of_categories;
 	}
 }
@@ -24,11 +26,13 @@ if ( ! function_exists( 'earth_get_cats' ) ) {
 if ( ! function_exists( 'earth_get_pages' ) ) {
 	function earth_get_pages() {
 		$of_pages = array();
-		$of_pages_obj = get_pages('sort_column=post_parent,menu_order');    
-		foreach ($of_pages_obj as $of_page) {
-			$of_pages[$of_page->ID] = $of_page->post_name;
+		$of_pages_obj = get_pages('sort_column=post_parent,menu_order');
+		if ( $of_pages_obj && ! is_wp_error( $of_pages_obj ) ) {
+			foreach ($of_pages_obj as $of_page) {
+				$of_pages[$of_page->ID] = $of_page->post_name;
+			}
+			$of_pages_tmp = array_unshift($of_pages, "-" );
 		}
-		$of_pages_tmp = array_unshift($of_pages, "-" );
 		return $of_pages;
 	}
 }
@@ -38,12 +42,14 @@ if ( ! function_exists( 'earth_get_sliders' ) ) {
 	function earth_get_sliders() {
 		$img_sliders_args = array( 'hide_empty'	=> false );
 		$img_sliders_terms = get_terms('img_sliders', $img_sliders_args);
-		$img_sliders_tax = array();
-		foreach ( $img_sliders_terms as $img_sliders_term) {
-			$img_sliders_tax[$img_sliders_term->term_id] = $img_sliders_term->slug;
+		if ( $img_sliders_terms && ! is_wp_error( $img_sliders_terms ) ) {
+			$img_sliders_tax = array();
+			foreach ( $img_sliders_terms as $img_sliders_term) {
+				$img_sliders_tax[$img_sliders_term->term_id] = $img_sliders_term->slug;
+			}
+			$img_sliders_tax_tmp = array_unshift($img_sliders_tax, "-");
+			return $img_sliders_tax;
 		}
-		$img_sliders_tax_tmp = array_unshift($img_sliders_tax, "-");
-		return $img_sliders_tax;
 	}
 }
 

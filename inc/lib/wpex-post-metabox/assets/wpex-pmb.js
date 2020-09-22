@@ -2,7 +2,7 @@
 
 	"use strict";
 
-	$( document ).on( 'ready', function() {
+	$(document).ready( function() {
 
 		// Date picker
 		if ( $.fn.datepicker ) {
