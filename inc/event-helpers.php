@@ -106,11 +106,11 @@ if ( ! function_exists( 'earth_has_event_sidebar' ) ) {
 		return apply_filters( 'earth_has_event_sidebar', $bool );
 	}
 }
- 
+
 // Return calendar years range
 if ( ! function_exists( 'earth_calendar_years_range' ) ) {
 	function earth_calendar_years_range() {
-		$range = range( 2016, 2019, 1 );
+		$range = range( 2019, 2022, 1 );
 		$range = apply_filters( 'earth_calendar_years_range', $range );
 		return $range;
 
