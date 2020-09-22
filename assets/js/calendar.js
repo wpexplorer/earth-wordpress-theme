@@ -1,11 +1,26 @@
 /*-----------------------------------------------------------------------------------*/
 /* Calendar Events
 /*===================================================================================*/
-jQuery(function($){
-	
+jQuery( function( $ ) {
+
+	$(document).ready( function()  {
+		earthCalendarSelect();
+	} );
+
+	// custom select
+	function earthCalendarSelect() {
+		if ( 'undefined' === typeof $.fn.jqTransform ) {
+			console.log( 'jqTransform is undefined' );
+			return;
+		}
+		if ( $( "#cal-trigger" ).width() ) {
+			$( "#cal-trigger" ).jqTransform();
+		}
+	}
+
 	//start calendar JS
 	function getMonthname($digits) {
-	
+
 		var month=new Array();
 			month[1]="Jan";
 			month[2]="Feb";
@@ -20,83 +35,83 @@ jQuery(function($){
 			month[11]="Nov";
 			month[12]="Dec";
 		return month[$digits];
-	
+
 	}
-	
+
 	//dropdown select get calendar
-	$("#cal-trigger #submit").live('click', function() {
-		
+	$("#cal-trigger #submit").on('click', function() {
+
 		$("#ajax-loader").show(); // show ajax loader
-	
+
 		var ajaxurl = aqvars.ajaxurl;
 		var serialized = $('#cal-trigger').serialize();
 		var nonce = $('#security').val();
-		
-		var data = {		
+
+		var data = {
 			action: 'get_calendar',
 			security: nonce,
-			data: serialized	
+			data: serialized
 		};
-		
+
 		$.post(ajaxurl, data, function(response) {
-			
+
 			$("#ajax-loader").hide(); // hide ajax loader
 			$('#events_calendar').html(response); //replace calendar
-			
+
 		});
-		
+
 		return false;
 	});
-	
+
 	//next month button
-	$("#cal-nav #cal-next").live('click', function() {
-		
+	$("#cal-nav #cal-next").on('click', function() {
+
 		$("#ajax-loader").show(); // show ajax loader
-		
+
 		var ajaxurl = aqvars.ajaxurl;
 		var serialized = $('#cal-next_val').serialize();
 		var nonce = $('#security').val();
-		
-		var data = {		
+
+		var data = {
 			action: 'get_calendar',
 			security: nonce,
 			data: serialized
 		};
-		
+
 		$.post(ajaxurl, data, function(response) {
-		
+
 			$("#ajax-loader").hide(); // hide ajax loader
 			$('#events_calendar').html(response); //replace calendar
-			
+
 		});
-		
+
 		return false;
 	});
-		
+
 	//prev month button
-	$("#cal-nav #cal-prev").live('click', function() {
-		
+	$("#cal-nav #cal-prev").on('click', function() {
+
 		$("#ajax-loader").show(); // show ajax loader
-		
+
 		var ajaxurl = aqvars.ajaxurl;
 		var serialized = $('#cal-prev_val').serialize();
 		var nonce = $('#security').val();
-		
-		var data = {		
+
+		var data = {
 			action: 'get_calendar',
 			security: nonce,
 			data: serialized
 		};
-		
+
 		$.post(ajaxurl, data, function(response) {
-			
+
 			$("#ajax-loader").hide(); // hide ajax loader
 			$('#events_calendar').html(response); //replace calendar
-			
+
 		});
-		
+
 		return false;
 	});
-	
-	
+
+
 });// END function
