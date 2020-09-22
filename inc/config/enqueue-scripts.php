@@ -140,11 +140,75 @@ function earth_scripts() {
 		'1.0',
 		true
 	);
+
 	wp_register_script(
 		'googlemap_api',
 		'https://maps.googleapis.com/maps/api/js?key=' . earth_get_option( 'google_api_key' ),
 		array( 'jquery' ),
 		'1.0',
+		true
+	);
+
+	// Superfish menus
+	wp_enqueue_script(
+		'superfish',
+		EARTH_ASSETS_DIR_URI . 'js/superfish.js',
+		array( 'jquery' ),
+		'1.4.8',
+		true
+	);
+
+	// HoverIntent tooltips
+	wp_enqueue_script(
+		'hoverIntent',
+		EARTH_ASSETS_DIR_URI . 'js/hoverIntent.js',
+		array( 'jquery', 'superfish' ),
+		'r6',
+		true
+	);
+
+	// Magnific Popup for lightbox
+	wp_enqueue_script(
+		'magnific-popup',
+		EARTH_ASSETS_DIR_URI . 'js/magnific-popup.js',
+		array( 'jquery' ),
+		'0.9.3',
+		true
+	);
+
+	// Tipsy tooltips
+	wp_enqueue_script(
+		'tipsy',
+		EARTH_ASSETS_DIR_URI . 'js/tipsy.js',
+		array( 'jquery' ),
+		'1.0.0a',
+		true
+	);
+
+	// ScrollTo
+	wp_enqueue_script(
+		'scrollTo',
+		EARTH_ASSETS_DIR_URI . 'js/scrollTo.js',
+		array( 'jquery' ),
+		'1.4.3',
+		true
+	);
+
+	// Uniform
+	wp_enqueue_script(
+		'uniform',
+		EARTH_ASSETS_DIR_URI . 'js/uniform.js',
+		array( 'jquery' ),
+		'2.1.0',
+		true
+	);
+
+	// jqTransform
+	wp_enqueue_script(
+		'jqTransform',
+		EARTH_ASSETS_DIR_URI . 'js/jqTransform.js',
+		array( 'jquery' ),
+		'1.1',
 		true
 	);
 
