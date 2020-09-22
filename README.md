@@ -1,4 +1,4 @@
-# Earth WordPress Theme
+# Earth WordPress Theme v4.5
 
 This theme was originally sold on ThemeForest but has since been deprecated. If you want to continue using the theme, do so at your own risk.
 
