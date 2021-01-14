@@ -4,52 +4,48 @@
  *
  * @package Earth WordPress Theme
  * @subpackage Functions
- * @version 4.0
+ * @version 4.0.1
  */
 
 // Get Standard Cats
 if ( ! function_exists( 'earth_get_cats' ) ) {
 	function earth_get_cats() {
-		$of_categories = array();  
-		$of_categories_obj = get_categories('hide_empty=0');
-		if ( $of_categories_obj && ! is_wp_error( $of_categories_obj ) ) {
-			foreach ($of_categories_obj as $of_cat) {
-				$of_categories[$of_cat->cat_ID] = $of_cat->slug;
+		$cats = array();
+		$get_cats = get_categories( 'hide_empty=0' );
+		if ( $get_cats && ! is_wp_error( $get_cats ) ) {
+			foreach( $get_cats as $cat ) {
+				$cats[$cat->cat_ID] = $cat->slug;
 			}
-			$categories_tmp = array_unshift($of_categories, "-");
 		}
-		return $of_categories;
+		return $cats;
 	}
 }
 
 // Get Pages
 if ( ! function_exists( 'earth_get_pages' ) ) {
 	function earth_get_pages() {
-		$of_pages = array();
-		$of_pages_obj = get_pages('sort_column=post_parent,menu_order');
-		if ( $of_pages_obj && ! is_wp_error( $of_pages_obj ) ) {
-			foreach ($of_pages_obj as $of_page) {
-				$of_pages[$of_page->ID] = $of_page->post_name;
+		$pages = array();
+		$get_pages = get_pages( 'sort_column=post_parent,menu_order' );
+		if ( $get_pages && ! is_wp_error( $get_pages ) ) {
+			foreach( $get_pages as $page ) {
+				$get_pages[$of_page->ID] = $page->post_name;
 			}
-			$of_pages_tmp = array_unshift($of_pages, "-" );
 		}
-		return $of_pages;
+		return $pages;
 	}
 }
 
 // Get Slides
 if ( ! function_exists( 'earth_get_sliders' ) ) {
 	function earth_get_sliders() {
-		$img_sliders_args = array( 'hide_empty'	=> false );
-		$img_sliders_terms = get_terms('img_sliders', $img_sliders_args);
-		if ( $img_sliders_terms && ! is_wp_error( $img_sliders_terms ) ) {
-			$img_sliders_tax = array();
-			foreach ( $img_sliders_terms as $img_sliders_term) {
-				$img_sliders_tax[$img_sliders_term->term_id] = $img_sliders_term->slug;
+		$sliders = array();
+		$get_sliders = get_terms( 'img_sliders', array( 'hide_empty' => false ) );
+		if ( $get_sliders && ! is_wp_error( $get_sliders ) ) {
+			foreach( $get_sliders as $slider ) {
+				$sliders[$slider->term_id] = $slider->slug;
 			}
-			$img_sliders_tax_tmp = array_unshift($img_sliders_tax, "-");
-			return $img_sliders_tax;
 		}
+		return $sliders;
 	}
 }
 
@@ -59,14 +55,14 @@ if ( ! function_exists( 'earth_get_gallery_cats' ) ) {
 		if ( ! taxonomy_exists( 'gallery_cats' ) ) {
 			return array( 'hide_empty' => false );
 		}
-		$cats_args = array( 'hide_empty' => false );
-		$cats_terms = get_terms('gallery_cats', $cats_args);
-		$cats_tax = array();
-		foreach ( $cats_terms as $cats_term) {
-			$cats_tax[$cats_term->term_id] = $cats_term->slug;
+		$cats = array();
+		$get_cats = get_terms( 'gallery_cats', array( 'hide_empty' => false ) );
+		if ( ! empty( $get_cats ) && ! is_wp_error( $get_cats ) ) {
+			foreach( $get_cats as $cat ) {
+				$cats[$cat->term_id] = $cat->slug;
+			}
 		}
-		$cats_tax_tmp = array_unshift($cats_tax, "-");
-		return $cats_tax;
+		return $cats;
 	}
 }
 
@@ -74,14 +70,16 @@ if ( ! function_exists( 'earth_get_gallery_cats' ) ) {
 if ( ! function_exists( 'earth_get_gallery_posts' ) ) {
 	function earth_get_gallery_posts() {
 		$posts = array();
-		$posts_obj = get_posts( array(
+		$get_posts = get_posts( array(
 			'posts_per_page' => 50, // cap at 50
 			'post_type'      => 'gallery',
 		) );
-		foreach ($posts_obj as $post) {
-			$posts[$post->ID] = $post->post_name;
+		if ( $get_posts ) {
+			foreach( $get_posts as $post) {
+				$posts[$post->ID] = $post->post_name;
+			}
+			$posts = array_unshift( $posts, '-' );
 		}
-		$posts_tmp = array_unshift($posts, '-' );
 		return $posts;
 	}
 }
